@@ -1,0 +1,20 @@
+# Standard library imports
+import json
+import csv
+import xml.etree.ElementTree as ET
+
+# Third-party imports
+import pandas as pd
+import pickle
+import yaml
+# For parquet files, use either:
+import pyarrow.parquet as pq
+# or
+import fastparquet
+
+# It's also good practice to specify versions of critical packages
+# you can add this as a comment:
+# Required packages:
+# pandas>=1.5.0
+# PyYAML>=6.0
+# pyarrow>=12.0.0 (or fastparquet>=2023.0.0) 

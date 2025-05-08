@@ -1,0 +1,6 @@
+# No external dependencies required for basic functionality
+
+# Web scraping dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+urllib3>=2.1.0  # Required by requests

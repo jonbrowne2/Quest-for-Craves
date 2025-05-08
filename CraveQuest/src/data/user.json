@@ -1,0 +1,1 @@
+{"cook_ability": "Home Cook", "novelty_push": 0.5, "nostalgia_sensitivity": 0.5, "allergies": [], "likes": [], "dislikes": [], "coefficients": {"C_taste": 1.0, "C_risk": 1.0, "C_time": 1.0, "C_effort": 1.0, "C_sacrifice": 1.0}}
