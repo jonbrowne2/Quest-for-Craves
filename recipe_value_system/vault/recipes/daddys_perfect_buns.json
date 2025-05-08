@@ -1,0 +1,186 @@
+{
+  "title": "Daddy's Perfect Buns",
+  "status": "legendary",
+  "yields": "12 rolls",
+  "description": "These aren't just any cinnamon rolls - they're legendary. The secret lies in using the absolute highest quality dairy products you can find. Premium European-style butter (like Plugrá or Kerrygold), farm-fresh eggs, and artisanal cream cheese make all the difference between a good cinnamon roll and an unforgettable one.",
+  "ingredients": {
+    "dough": [
+      {
+        "text": "4 large eggs, at room temperature (use farm-fresh if possible)",
+        "amount": "4",
+        "unit": null,
+        "name": "large eggs, at room temperature (use farm-fresh if possible)"
+      },
+      {
+        "text": "3/4 cup warm whole milk (100 to 110F) (use premium, non-UHT milk)",
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "warm whole milk (100 to 110F) (use premium, non-UHT milk)"
+      },
+      {
+        "text": "1/4 cup honey",
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "honey"
+      },
+      {
+        "text": "4 cups all-purpose flour",
+        "amount": "4",
+        "unit": "cup",
+        "name": "all-purpose flour"
+      },
+      {
+        "text": "2 1/4 teaspoons instant yeast",
+        "amount": "2 1/4",
+        "unit": "teaspoon",
+        "name": "instant yeast"
+      },
+      {
+        "text": "2 teaspoons salt",
+        "amount": "2",
+        "unit": "teaspoon",
+        "name": "salt"
+      },
+      {
+        "text": "10 tablespoons premium European-style unsalted butter, at room temperature, cut into 1 in pieces",
+        "amount": "10",
+        "unit": "tablespoon",
+        "name": "premium European-style unsalted butter, at room temperature, cut into 1 in pieces"
+      }
+    ],
+    "filling": [
+      {
+        "text": "1 1/4 cups packed brown sugar (25% increase)",
+        "amount": "1 1/4",
+        "unit": "cup",
+        "name": "packed brown sugar"
+      },
+      {
+        "text": "2 1/2 tablespoons ground cinnamon (25% increase)",
+        "amount": "2 1/2",
+        "unit": "tablespoon",
+        "name": "ground cinnamon"
+      },
+      {
+        "text": "1/4 teaspoon salt",
+        "amount": "1/4",
+        "unit": "teaspoon",
+        "name": "salt"
+      },
+      {
+        "text": "4 tablespoons premium unsalted butter, melted",
+        "amount": "4",
+        "unit": "tablespoon",
+        "name": "premium unsalted butter, melted"
+      }
+    ],
+    "icing": [
+      {
+        "text": "7 tablespoons premium European-style butter, softened",
+        "amount": "7",
+        "unit": "tablespoon",
+        "name": "premium European-style butter, softened"
+      },
+      {
+        "text": "2 ounces artisanal cream cheese, softened (like Vermont Creamery)",
+        "amount": "2",
+        "unit": "ounce",
+        "name": "artisanal cream cheese, softened (like Vermont Creamery)"
+      },
+      {
+        "text": "2 tablespoons milk",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "milk"
+      },
+      {
+        "text": "1/2 teaspoon vanilla extract",
+        "amount": "1/2",
+        "unit": "teaspoon",
+        "name": "vanilla extract"
+      },
+      {
+        "text": "1 1/2 cups confectioners' sugar, sifted",
+        "amount": "1 1/2",
+        "unit": "cup",
+        "name": "confectioners' sugar, sifted"
+      },
+      {
+        "text": "1/4 teaspoon salt",
+        "amount": "1/4",
+        "unit": "teaspoon",
+        "name": "salt"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "For the dough: Grease a large bowl. In a large liquid measuring cup, combine the eggs, milk, and honey."
+    },
+    {
+      "text": "In the bowl of a stand mixer fitted with a paddle, mix the flour, yeast, and salt and stir on low to combine. Add the egg mixture and mix on low to combine. With the mixer on low, add the butter, one piece at a time. When all the butter has been added, increase the speed to medium and beat the butter into the dough, until all the little butter pieces are incorporated, 1 minute."
+    },
+    {
+      "text": "Transfer the dough to the prepared bowl. The dough will be very sticky and you will need a spatula to scrape the dough into the bowl."
+    },
+    {
+      "text": "Cover the bowl with plastic wrap and let rise for 30 minutes. Place your fingers or a spatula underneath the dough and gently pull the dough up and fold it back over itself. Turn the bowl and repeat this folding again. Continue 6 to 8 more times, until all the dough has been folded over on itself."
+    },
+    {
+      "text": "Re-cover the bowl with plastic and let rise for 30 minutes. Repeat this series of folding 3 more times, for a rise time of 2 hours and a total of 4 foldings. Tightly cover the bowl with plastic wrap and refrigerate overnight or up to 72 hours."
+    },
+    {
+      "text": "To Assemble: Flour a work surface and knead the cold dough 10 to 12 times. Shape the dough into a ball, cover the top lightly with flour, and cover with a tea towel and let come to room temperature."
+    },
+    {
+      "text": "Grease a 9 by 13 inch pan; if desired, line with parchment paper for easier cleanup."
+    },
+    {
+      "text": "For the filling: In a small bowl, mix the brown sugar (increased by 25%), cinnamon (increased by 25%), and salt."
+    },
+    {
+      "text": "Roll the dough into a 16 by 12 inch rectangle. Brush the dough with the melted butter (increased by 25%) and sprinkle the cinnamon-sugar mixture evenly over the top, pressing it lightly into the butter so it adheres."
+    },
+    {
+      "text": "Starting at a long side, roll the dough into a tight cylinder. Pinch the seam gently to seal it and position the dough seam side down. Use scissors or a sharp knife to cut the dough into 12 equal pieces."
+    },
+    {
+      "text": "Transfer the pieces to the prepared pan and place them cut side up. Cover the pan loosely with plastic wrap and let the dough rise until doubled, 1 to 1 1/2 hours."
+    },
+    {
+      "text": "Preheat the oven to 350°F with a rack in the middle position. Remove the plastic and bake 27 to 32 minutes, rotating the pan halfway through, until the rolls are golden brown."
+    },
+    {
+      "text": "For the icing: While the rolls are baking, beat butter and cream cheese together in a large bowl with an electric mixer until creamy."
+    },
+    {
+      "text": "Blend in milk and vanilla. Gradually mix in confectioners' sugar and salt until smooth and fluffy."
+    },
+    {
+      "text": "When rolls are done, transfer the pan to a wire rack and let cool for 5 minutes. Using an offset spatula or table knife, apply a thin layer of the cream cheese icing, using about one-third of the mixture."
+    },
+    {
+      "text": "Let the rolls cool for another 15 to 20 minutes. Top with the rest of the icing and serve."
+    }
+  ],
+  "notes": [
+    "INGREDIENT QUALITY IS CRUCIAL: The quality of dairy products will make or break this recipe. Use the highest quality butter (European-style with higher butterfat), farm-fresh eggs, premium whole milk, and artisanal cream cheese you can find. The extra cost is worth it.",
+    "For overnight rolls: Prepare the rolls (roll out dough, fill them, roll them up, cut them, and put them in the prepared pan, but do not let rise for 1 1/2 hours as stated above) then cover them loosely with plastic and refrigerate for up to 18 hours. When ready to bake, let the rolls sit at room temperature (still covered in plastic) for 30-45 minutes, then bake as directed (they may take slightly longer to bake).",
+    "The filling amounts for sugar and cinnamon have been increased by 25% from the original recipe for extra flavor, while keeping the butter amount classic at 4 tablespoons.",
+    "The icing recipe has been replaced with an alternative cream cheese icing that's richer and more decadent."
+  ],
+  "source": {
+    "dough_and_original_recipe": "http://www.thevanillabeanblog.com/2019/12/cinnamon-rolls.html",
+    "icing_recipe": "https://www.allrecipes.com/recipe/216759/the-perfect-cinnamon-roll-icing/"
+  },
+  "quality_metrics": {
+    "overall_quality": 0.95,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 0.98,
+    "timing_validity": 0.9,
+    "temperature_validity": 0.9,
+    "portion_consistency": 0.9,
+    "needs_improvement": false
+  }
+}

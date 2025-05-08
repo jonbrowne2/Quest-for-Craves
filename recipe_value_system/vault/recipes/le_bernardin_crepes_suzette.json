@@ -1,0 +1,179 @@
+{
+  "title": "Le Bernardin-Style Crêpes Suzette",
+  "status": "legendary",
+  "yields": "8 servings (16 crêpes)",
+  "description": "This isn't just Crêpes Suzette - it's a masterclass in French dessert technique, inspired by Eric Ripert's Le Bernardin. The secret lies in the perfect crêpe batter consistency, a 24-hour rest period that develops complex flavors, and a carefully calibrated orange-butter sauce that balances sweet, bitter, and acidic notes. The flambé technique isn't just for show - it adds crucial caramelization and reduces the alcohol to its essence.",
+  "ingredients": {
+    "crêpe batter": [
+      {
+        "text": "2 cups (250g) all-purpose flour",
+        "amount": "250",
+        "unit": "gram",
+        "name": "all-purpose flour",
+        "notes": "European-style flour preferred (11-12% protein content)"
+      },
+      {
+        "text": "4 large eggs",
+        "amount": "4",
+        "unit": null,
+        "name": "large eggs",
+        "notes": "Room temperature, about 65°F/18°C"
+      },
+      {
+        "text": "2 large egg yolks",
+        "amount": "2",
+        "unit": null,
+        "name": "large egg yolks",
+        "notes": "For extra richness and color"
+      },
+      {
+        "text": "2 1/4 cups (530ml) whole milk",
+        "amount": "530",
+        "unit": "milliliter",
+        "name": "whole milk",
+        "notes": "Room temperature"
+      },
+      {
+        "text": "1/4 cup (60ml) heavy cream",
+        "amount": "60",
+        "unit": "milliliter",
+        "name": "heavy cream",
+        "notes": "36% fat content preferred"
+      },
+      {
+        "text": "1/4 cup (60g) unsalted butter",
+        "amount": "60",
+        "unit": "gram",
+        "name": "unsalted butter",
+        "notes": "Melted and cooled, plus more for pan"
+      },
+      {
+        "text": "3 tablespoons (45ml) Grand Marnier",
+        "amount": "45",
+        "unit": "milliliter",
+        "name": "Grand Marnier",
+        "notes": "Can substitute Cointreau"
+      },
+      {
+        "text": "2 tablespoons (30g) sugar",
+        "amount": "30",
+        "unit": "gram",
+        "name": "sugar",
+        "notes": "Superfine sugar preferred"
+      },
+      {
+        "text": "1/4 teaspoon fine sea salt",
+        "amount": "0.25",
+        "unit": "teaspoon",
+        "name": "fine sea salt",
+        "notes": "Fine sea salt preferred over table salt"
+      },
+      {
+        "text": "Zest of 1 orange",
+        "amount": "1",
+        "unit": null,
+        "name": "orange zest",
+        "notes": "Organic orange preferred, finely grated"
+      }
+    ],
+    "orange butter sauce": [
+      {
+        "text": "12 tablespoons (170g) unsalted butter",
+        "amount": "170",
+        "unit": "gram",
+        "name": "unsalted butter",
+        "notes": "European-style, 82% butterfat"
+      },
+      {
+        "text": "1/2 cup (100g) sugar",
+        "amount": "100",
+        "unit": "gram",
+        "name": "sugar",
+        "notes": "Regular granulated"
+      },
+      {
+        "text": "Juice of 3 oranges",
+        "amount": "3",
+        "unit": null,
+        "name": "orange juice",
+        "notes": "Fresh-squeezed only, about 3/4 cup"
+      },
+      {
+        "text": "Zest of 2 oranges",
+        "amount": "2",
+        "unit": null,
+        "name": "orange zest",
+        "notes": "Remove in wide strips with peeler"
+      },
+      {
+        "text": "2 tablespoons (30ml) Cognac",
+        "amount": "30",
+        "unit": "milliliter",
+        "name": "Cognac",
+        "notes": "VSOP or better quality"
+      },
+      {
+        "text": "1/4 cup (60ml) Grand Marnier",
+        "amount": "60",
+        "unit": "milliliter",
+        "name": "Grand Marnier",
+        "notes": "For flambé"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "PREPARE BATTER (DAY BEFORE): In a blender, combine eggs, egg yolks, milk, cream, melted butter, Grand Marnier, sugar, and salt. Blend for 10 seconds."
+    },
+    {
+      "text": "ADD FLOUR: With blender running on low speed, gradually add flour. Blend for 30 seconds. Scrape down sides, add orange zest, and blend for another 30 seconds until completely smooth."
+    },
+    {
+      "text": "REST BATTER: Transfer to a container, cover, and refrigerate for 24 hours. This rest is crucial for tender crêpes."
+    },
+    {
+      "text": "PREPARE FOR COOKING (NEXT DAY): Remove batter from refrigerator 1 hour before cooking. Whisk gently to recombine. Strain through a fine-mesh sieve if needed."
+    },
+    {
+      "text": "COOK CRÊPES: Heat an 8-inch crêpe pan or nonstick skillet over medium heat. Brush lightly with melted butter. Pour about 2 tablespoons batter into pan, quickly swirling to coat bottom evenly."
+    },
+    {
+      "text": "COOK AND FLIP: Cook until edges are lightly golden and top is set, about 1 minute. Flip and cook second side for 30 seconds. Transfer to a plate. Repeat with remaining batter, stacking crêpes between pieces of parchment paper."
+    },
+    {
+      "text": "PREPARE ORANGE BUTTER SAUCE: In a large skillet over medium heat, combine butter, sugar, and orange zest strips. Cook until butter melts and sugar begins to dissolve."
+    },
+    {
+      "text": "ADD JUICE: Add orange juice and simmer until sauce thickens slightly and becomes syrupy, about 5 minutes. Remove orange zest strips."
+    },
+    {
+      "text": "FOLD AND WARM CRÊPES: Working with 2-3 crêpes at a time, fold each into quarters and add to the simmering sauce. Baste with sauce until heated through."
+    },
+    {
+      "text": "FLAMBÉ: Warm Cognac in a small saucepan. Add to skillet and carefully ignite with a long match. When flames subside, add Grand Marnier and ignite again."
+    },
+    {
+      "text": "SERVE: Transfer crêpes to warm plates, spooning sauce over top. Serve immediately."
+    }
+  ],
+  "notes": [
+    "BATTER CONSISTENCY: After resting, the batter should be the consistency of heavy cream. If too thick, thin with a little milk.",
+    "TEMPERATURE CONTROL: The pan should be hot enough that the batter sizzles gently when added, but not so hot that the butter browns quickly.",
+    "CRÊPE TECHNIQUE: The key to perfectly thin crêpes is quick pan rotation immediately after adding the batter.",
+    "SAUCE BALANCE: The sauce should have a perfect balance of sweet, bitter (from caramelization), and acidic notes. Adjust orange juice if needed.",
+    "FLAMBÉ SAFETY: Have a lid nearby to smother flames if needed. Never pour alcohol directly from the bottle.",
+    "TIMING: Crêpes can be made several hours ahead and reheated in the sauce. The sauce should be made just before serving.",
+    "SERVING: At Le Bernardin, these are often served with a small scoop of orange-scented vanilla ice cream."
+  ],
+  "source_url": "http://www.aveceric.com/all-recipes/crepes-suzette",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 1.0,
+    "temperature_validity": 1.0,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

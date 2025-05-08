@@ -1,0 +1,179 @@
+{
+  "title": "Fox in the Snow-Inspired Artisan Granola",
+  "status": "legendary",
+  "yields": "8 cups (16 servings)",
+  "description": "Inspired by the legendary Fox in the Snow Cafe in Columbus, Ohio, this granola achieves their signature balance of sweet and salty, with enormous clusters and premium ingredients. The secret lies in the precise ratio of wet to dry ingredients, the unique combination of three sweeteners for depth of flavor, and a slow baking process that creates those coveted large clusters.",
+  "ingredients": {
+    "dry base": [
+      {
+        "text": "4 cups old-fashioned rolled oats",
+        "amount": "4",
+        "unit": "cup",
+        "name": "old-fashioned rolled oats",
+        "notes": "Bob's Red Mill Extra Thick Rolled Oats preferred"
+      },
+      {
+        "text": "2 cups sliced almonds",
+        "amount": "2",
+        "unit": "cup",
+        "name": "sliced almonds",
+        "notes": "Raw, not roasted - they'll toast during baking"
+      },
+      {
+        "text": "1 cup raw pistachios",
+        "amount": "1",
+        "unit": "cup",
+        "name": "raw pistachios",
+        "notes": "Roughly chopped, unsalted"
+      },
+      {
+        "text": "1 cup raw pecans",
+        "amount": "1",
+        "unit": "cup",
+        "name": "raw pecans",
+        "notes": "Roughly chopped"
+      },
+      {
+        "text": "1 cup unsweetened coconut chips",
+        "amount": "1",
+        "unit": "cup",
+        "name": "unsweetened coconut chips",
+        "notes": "Large flakes, not shredded"
+      }
+    ],
+    "seasoning": [
+      {
+        "text": "2 teaspoons fine sea salt",
+        "amount": "2",
+        "unit": "teaspoon",
+        "name": "fine sea salt",
+        "notes": "The salt level is crucial for their signature sweet-salty balance"
+      },
+      {
+        "text": "1 teaspoon ground cinnamon",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "ground cinnamon",
+        "notes": "Ceylon cinnamon preferred for complex flavor"
+      },
+      {
+        "text": "1/2 teaspoon ground cardamom",
+        "amount": "0.5",
+        "unit": "teaspoon",
+        "name": "ground cardamom",
+        "notes": "Freshly ground if possible"
+      },
+      {
+        "text": "1/4 teaspoon ground ginger",
+        "amount": "0.25",
+        "unit": "teaspoon",
+        "name": "ground ginger",
+        "notes": "Adds subtle warmth"
+      }
+    ],
+    "wet ingredients": [
+      {
+        "text": "3/4 cup pure maple syrup",
+        "amount": "0.75",
+        "unit": "cup",
+        "name": "pure maple syrup",
+        "notes": "Grade A Dark Robust for deeper flavor"
+      },
+      {
+        "text": "1/4 cup honey",
+        "amount": "0.25",
+        "unit": "cup",
+        "name": "honey",
+        "notes": "Local wildflower honey preferred"
+      },
+      {
+        "text": "2 tablespoons brown sugar",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "brown sugar",
+        "notes": "Dark brown sugar, packed"
+      },
+      {
+        "text": "2/3 cup neutral oil",
+        "amount": "0.66",
+        "unit": "cup",
+        "name": "neutral oil",
+        "notes": "Grapeseed or sunflower oil"
+      },
+      {
+        "text": "2 teaspoons vanilla extract",
+        "amount": "2",
+        "unit": "teaspoon",
+        "name": "vanilla extract",
+        "notes": "Pure vanilla extract only"
+      }
+    ],
+    "mix-ins after baking": [
+      {
+        "text": "1 cup dried sour cherries",
+        "amount": "1",
+        "unit": "cup",
+        "name": "dried sour cherries",
+        "notes": "Unsweetened if possible"
+      },
+      {
+        "text": "1/2 cup dried blueberries",
+        "amount": "0.5",
+        "unit": "cup",
+        "name": "dried blueberries",
+        "notes": "Unsweetened if possible"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "PREPARATION: Position rack in the middle of the oven and preheat to 300°F (150°C). Line a large rimmed baking sheet (half-sheet size) with parchment paper."
+    },
+    {
+      "text": "COMBINE DRY INGREDIENTS: In a large mixing bowl, combine oats, almonds, pistachios, pecans, coconut chips, salt, cinnamon, cardamom, and ginger. Mix thoroughly to ensure even distribution of spices."
+    },
+    {
+      "text": "PREPARE WET INGREDIENTS: In a medium saucepan over low heat, combine maple syrup, honey, and brown sugar. Heat just until sugar dissolves and mixture is warm, about 2 minutes. Remove from heat and whisk in oil and vanilla."
+    },
+    {
+      "text": "COMBINE AND COAT: Pour the warm wet mixture over the dry ingredients. Using a sturdy spatula or your hands (if using hands, let mixture cool slightly first), mix very thoroughly until every oat and nut is well coated. This should take about 3-4 minutes of mixing."
+    },
+    {
+      "text": "SPREAD AND COMPRESS: Pour the mixture onto your prepared pan. Using your spatula or hands, press the granola down very firmly into an even layer about 3/4 inch thick. Really compress it - this is crucial for cluster formation."
+    },
+    {
+      "text": "FIRST BAKE: Bake for 20 minutes, then rotate the pan 180 degrees. Do not stir."
+    },
+    {
+      "text": "SECOND BAKE: Continue baking for another 15-20 minutes until the top is golden brown and feels mostly dry to a gentle touch. The edges may be slightly darker. Do not stir during baking."
+    },
+    {
+      "text": "COOLING: Remove from oven and let cool completely on the pan without disturbing - this will take about 1 hour. The granola will continue to crisp as it cools."
+    },
+    {
+      "text": "BREAKING AND MIXING: Once completely cool, break the granola into clusters of your desired size. Gently fold in the dried cherries and blueberries."
+    },
+    {
+      "text": "FINAL REST: Let the granola rest uncovered at room temperature for 30 minutes after breaking up - this allows any remaining moisture to evaporate, ensuring maximum crunch."
+    }
+  ],
+  "notes": [
+    "CLUSTER FORMATION: The key to Fox in the Snow-style clusters is threefold: thorough coating with the warm liquid mixture, firm compression before baking, and absolutely no stirring during baking or cooling.",
+    "SWEETENER BLEND: The combination of maple syrup, honey, and brown sugar creates complex sweetness with caramel notes that develop during baking.",
+    "TEMPERATURE: 300°F is crucial - any hotter and the sugars will burn before the center is properly dried.",
+    "STORAGE: Will keep for up to 2 weeks in an airtight container at room temperature. For maximum crunch, store with a silica gel packet.",
+    "SERVING: Perfect on its own, but especially good with whole milk or Greek yogurt. At Fox in the Snow, it's famously served over their house-made yogurt with fresh berries.",
+    "GIFTING: Package in mason jars with a handwritten label for a beautiful artisanal gift."
+  ],
+  "source_url": "https://www.foxinthesnow.com/more-fox-in-the-snow/",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 1.0,
+    "temperature_validity": 1.0,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

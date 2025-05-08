@@ -1,0 +1,92 @@
+{
+  "title": "Chef John's Salt Roasted Chicken",
+  "yields": null,
+  "ingredients": [
+    {
+      "text": "1 (3 1/2) pound whole chicken at room temperature",
+      "amount": null,
+      "unit": null,
+      "name": "1 (3 1/2) pound whole chicken at room temperature"
+    },
+    {
+      "text": "3 tablespoons kosher salt, or as needed",
+      "amount": "3",
+      "unit": "tablespoon",
+      "name": "kosher salt, or as needed"
+    },
+    {
+      "text": "1 tablespoon chopped fresh thyme",
+      "amount": "1",
+      "unit": "tablespoon",
+      "name": "chopped fresh thyme"
+    },
+    {
+      "text": "1 lemon, juiced",
+      "amount": null,
+      "unit": null,
+      "name": "1 lemon, juiced"
+    },
+    {
+      "text": "⅓ cup chicken broth",
+      "amount": null,
+      "unit": null,
+      "name": "⅓ cup chicken broth"
+    },
+    {
+      "text": "1 tablespoon water, or as needed (Optional)",
+      "amount": "1",
+      "unit": "tablespoon",
+      "name": "water, or as needed (Optional)"
+    },
+    {
+      "text": "2 tablespoons cold butter, cut into four pieces",
+      "amount": "2",
+      "unit": "tablespoon",
+      "name": "cold butter, cut into four pieces"
+    },
+    {
+      "text": "salt and freshly ground black pepper to taste",
+      "amount": null,
+      "unit": null,
+      "name": "salt and freshly ground black pepper to taste"
+    },
+    {
+      "text": "1 pinch cayenne pepper, or to taste",
+      "amount": "1",
+      "unit": "pinch",
+      "name": "cayenne pepper, or to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Preheat oven to 450 degrees F (230 degrees C)."
+    },
+    {
+      "text": "Dry the outside of chicken with paper towels. Tuck the wing tips underneath the chicken and place into a large oven-safe skillet. Use scissors to snip off the tail, if desired."
+    },
+    {
+      "text": "Generously sprinkle kosher salt into the cavity and over the back and sides of chicken. Tie chicken legs together with kitchen twine. Sprinkle salt generously over the breasts, coating them thoroughly. Wipe excess salt out of skillet with paper towels."
+    },
+    {
+      "text": "Bake chicken in the preheated oven until an instant-read meat thermometer inserted into a thigh, not touching bone, reads 160 degrees C (70 degrees C), 50 to 60 minutes. Remove from skillet to a serving platter and let rest 5 to 10 minutes."
+    },
+    {
+      "text": "Blot about 90 percent of the chicken fat from the skillet with a paper towel held with tongs, leaving the browned bits of food in the skillet. Place skillet over medium-high heat and add thyme leaves. Cook and stir until thyme is wilted, 1 to 2 minutes. Pour lemon juice, chicken broth, and water into skillet, stirring until the browned bits dissolve and the sauce has reduced by about half, 1 to 2 minutes."
+    },
+    {
+      "text": "Reduce heat to low, add cold butter, and stir until butter has begun to melt. Add any accumulated juices from the chicken to sauce and continue to stir until butter is incorporated and sauce is slightly thickened, about 1 minute. Remove from heat and season with salt, black pepper, and cayenne pepper to taste. Spoon sauce over chicken to serve. BIG BOY"
+    }
+  ],
+  "source_url": "https://www.allrecipes.com/video/4053/chef-johns-salt-roasted-chicken/",
+  "source_text": null,
+  "quality_metrics": {
+    "overall_quality": 0.6341666666666668,
+    "completeness_score": 0.9,
+    "instruction_clarity": 0.6100000000000001,
+    "ingredient_validity": 0.7833333333333333,
+    "timing_validity": 0.5,
+    "temperature_validity": 0.0,
+    "portion_consistency": 0.5,
+    "needs_improvement": false
+  }
+}

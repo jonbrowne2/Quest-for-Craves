@@ -1,0 +1,356 @@
+// This is your Prisma schema file
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+// Core recipe data
+model Recipe {
+  id            String          @id @default(cuid())
+  title         String          @db.VarChar(100)
+  description   String          @db.VarChar(280)
+  imageUrl      String?         @db.Text
+  prepTime      String          @db.VarChar(50)
+  difficulty    DifficultyLevel
+  cuisine       CuisineType
+  servings      Int            @db.SmallInt
+  rating        Float          @default(0) @db.Real
+  valueScore    Float          @default(0) @db.Real
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  isPublished   Boolean        @default(false)
+  isVerified    Boolean        @default(false)
+  
+  // Relations
+  ingredients    Ingredient[]
+  steps         Step[]
+  nutritionInfo NutritionInfo?
+  user          User           @relation(fields: [userId], references: [id])
+  userId        String
+  tags          RecipeTag[]
+  interactions  RecipeInteraction[]
+  analytics     RecipeAnalytics?
+  variations    RecipeVariation[]
+  businessData  RecipeBusinessData?
+
+  // Full-text search indexes
+  @@fulltext([title, description])
+  
+  // Performance indexes
+  @@index([cuisine])
+  @@index([difficulty])
+  @@index([rating])
+  @@index([valueScore])
+  @@index([createdAt])
+  @@index([userId])
+  @@index([isPublished, isVerified])
+}
+
+model Ingredient {
+  id          String   @id @default(cuid())
+  name        String   @db.VarChar(100)
+  amount      Float    @db.Real
+  unit        String   @db.VarChar(20)
+  recipe      Recipe   @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  recipeId    String
+  category    String?  @db.VarChar(50)
+  isCommon    Boolean  @default(false)
+  
+  // Analytics fields
+  priceHistory PricePoint[]
+  
+  @@index([recipeId])
+  @@index([name])
+  @@index([category])
+  @@index([isCommon])
+}
+
+model Step {
+  id          String   @id @default(cuid())
+  instruction String   @db.Text
+  recipe      Recipe   @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  recipeId    String
+  order       Int      @db.SmallInt
+  duration    Int?     @db.SmallInt  // Estimated time in minutes
+  complexity  Float?   @db.Real      // Algorithmic complexity score
+  
+  @@index([recipeId])
+  @@index([complexity])
+}
+
+model NutritionInfo {
+  id            String   @id @default(cuid())
+  recipe        Recipe   @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  recipeId      String   @unique
+  servingSize   String   @db.VarChar(50)
+  calories      Int      @db.SmallInt
+  protein       Float    @db.Real
+  carbohydrates Float    @db.Real
+  fat           Float    @db.Real
+  fiber         Float?   @db.Real
+  sugar         Float?   @db.Real
+  sodium        Float?   @db.Real
+  
+  @@index([recipeId])
+  @@index([calories])
+}
+
+// User engagement and behavior tracking
+model RecipeInteraction {
+  id            String      @id @default(cuid())
+  recipe        Recipe      @relation(fields: [recipeId], references: [id])
+  recipeId      String
+  user          User        @relation(fields: [userId], references: [id])
+  userId        String
+  type          InteractionType
+  createdAt     DateTime    @default(now())
+  tasteRating   TasteValue? // User's taste rating
+  madeAgain     Boolean?    // Whether they made it again
+  timeToNext    Int?        // Days until they made it again
+  
+  // Enhanced interaction data
+  metadata  Json?    // Flexible storage for additional interaction data
+  duration  Int?     // Time spent in seconds
+  platform  String?  // Source platform
+  device    String?  // Device type
+  location  String?  // Geographic location
+  success   Boolean? // Whether the interaction was successful
+  feedback  String?  // User feedback
+  
+  @@index([recipeId])
+  @@index([userId])
+  @@index([type])
+  @@index([tasteRating])
+  @@index([madeAgain])
+}
+
+// Business intelligence data
+model RecipeBusinessData {
+  id                String   @id @default(cuid())
+  recipe           Recipe    @relation(fields: [recipeId], references: [id])
+  recipeId         String   @unique
+  
+  // Core business metrics
+  costToMake       Float    @db.Real
+  profitMargin     Float    @db.Real
+  marketValue      Float    @db.Real
+  
+  // Market analysis
+  competitorPrices Json?    // Array of competitor pricing
+  targetMarkets    String[] // Array of market segments
+  seasonality      Json?    // Monthly demand scores
+  
+  // Business opportunities
+  franchisePotential Float   @default(0) @db.Real    // Franchise suitability score
+  chainScalability  Float    @default(0) @db.Real    // Ease of scaling to chain restaurants
+  menuIntegration   Float    @default(0) @db.Real    // Fit with existing menu types
+  
+  // Supply chain metrics
+  supplierCount     Int     @default(0)              // Number of ingredient suppliers
+  supplyRisk        Float   @default(0) @db.Real     // Supply chain risk score
+  inventoryTurnover Float?  @db.Real                 // Inventory turnover rate
+  
+  // Market positioning
+  priceCategory     PriceCategory @default(MEDIUM)    // Price positioning
+  cuisineAppeal     Json?                            // Appeal scores by cuisine type
+  venueTypes        String[]                         // Suitable venue types
+  
+  // Operational metrics
+  kitchenEfficiency Float   @default(0) @db.Real     // Kitchen workflow efficiency
+  staffingNeeds     Json?                            // Required staffing levels
+  trainingCost      Float?  @db.Real                 // Staff training investment
+  
+  // Financial projections
+  revenueProjection Json?                            // Monthly revenue projections
+  marginProjection  Json?                            // Margin trends
+  breakEvenPoint    Int?    @db.Integer              // Orders to break even
+  
+  @@index([recipeId])
+  @@index([costToMake])
+  @@index([marketValue])
+  @@index([franchisePotential])
+  @@index([priceCategory])
+}
+
+// Aggregated analytics for quick access
+model RecipeAnalytics {
+  id                String   @id @default(cuid())
+  recipe           Recipe    @relation(fields: [recipeId], references: [id])
+  recipeId         String   @unique
+  
+  // Basic engagement metrics
+  viewCount        Int      @default(0)
+  saveCount        Int      @default(0)
+  shareCount       Int      @default(0)
+  completionCount  Int      @default(0)
+  
+  // Crave metrics
+  craveRate        Float    @default(0) @db.Real     // Probability of achieving CRAVE status after completion
+  craveRetention   Float    @default(0) @db.Real     // Percentage of users who make it again after CRAVE
+  craveSpread      Float    @default(0) @db.Real     // Viral coefficient for CRAVE-rated recipes
+  tasteValue       TasteValue @default(MEH)          // Current taste value rating
+  
+  // Value metrics
+  valueScore       Float    @default(0) @db.Real     // Composite value score
+  profitPotential  Float    @default(0) @db.Real     // Estimated profit potential
+  repeatRate       Float    @default(0) @db.Real     // Rate of repeat making
+  
+  // Taste progression
+  tasteProgression Json?                             // Historical progression of taste ratings
+  upgradePath      Json?                             // Suggested improvements to reach next taste level
+  
+  // Market insights
+  trendScore       Float    @default(0) @db.Real     // Current trending status
+  seasonalDemand   Json?                             // Monthly demand patterns
+  demographicAppeal Json?                            // Age/location/income appeal scores
+  
+  // Competition metrics
+  uniquenessScore  Float    @default(0) @db.Real     // Recipe uniqueness in market
+  marketShare      Float    @default(0) @db.Real     // Share of category engagement
+  
+  // Health and nutrition insights
+  healthScore      Float    @default(0) @db.Real     // Overall health rating
+  dietaryTags      String[]                          // Applicable diet categories
+  allergenRisk     Float    @default(0) @db.Real     // Allergen presence score
+  
+  // Cost metrics
+  ingredientCost   Float    @default(0) @db.Real     // Current ingredient cost
+  costTrend        Json?                             // Historical cost trends
+  priceElasticity  Float?   @db.Real                 // Price sensitivity measure
+  
+  // Restaurant metrics
+  prepComplexity   Float    @default(0) @db.Real     // Kitchen complexity score
+  staffTrainingNeed Float   @default(0) @db.Real     // Required staff expertise
+  equipmentNeeds   String[]                          // Required equipment list
+  
+  // Sustainability metrics
+  carbonFootprint  Float?   @db.Real                 // Environmental impact score
+  localSourceable  Float    @default(0) @db.Real     // Local ingredient availability
+  wasteScore      Float    @default(0) @db.Real     // Food waste potential
+  
+  // Time-based analysis
+  peakHours       Json?                             // Popular cooking times
+  lastCalculated   DateTime @default(now())
+  timeSeriesData  Json?                             // Historical performance data
+  
+  @@index([recipeId])
+  @@index([craveRate])
+  @@index([tasteValue])
+  @@index([valueScore])
+  @@index([profitPotential])
+  @@index([trendScore])
+  @@index([healthScore])
+  @@index([ingredientCost])
+}
+
+model PricePoint {
+  id            String     @id @default(cuid())
+  ingredient    Ingredient @relation(fields: [ingredientId], references: [id])
+  ingredientId  String
+  price         Float      @db.Real
+  currency      String     @db.VarChar(3)
+  region        String     @db.VarChar(50)
+  recordedAt    DateTime   @default(now())
+  
+  @@index([ingredientId])
+  @@index([recordedAt])
+  @@index([region])
+}
+
+// Recipe variations and alternatives
+model RecipeVariation {
+  id          String   @id @default(cuid())
+  recipe      Recipe   @relation(fields: [recipeId], references: [id])
+  recipeId    String
+  title       String   @db.VarChar(100)
+  changes     Json     // Array of modification instructions
+  costDelta   Float    @db.Real
+  timeDelta   Int      @db.SmallInt
+  createdAt   DateTime @default(now())
+  
+  @@index([recipeId])
+}
+
+// Recipe categorization
+model RecipeTag {
+  id       String   @id @default(cuid())
+  name     String   @unique @db.VarChar(50)
+  recipes  Recipe[]
+  category String?  @db.VarChar(50)
+  
+  @@index([name])
+  @@index([category])
+}
+
+// User management
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  role          UserRole  @default(USER)
+  recipes       Recipe[]
+  interactions  RecipeInteraction[]
+  createdAt     DateTime  @default(now())
+  lastActive    DateTime  @default(now())
+  
+  @@index([email])
+  @@index([role])
+  @@index([lastActive])
+}
+
+enum UserRole {
+  USER
+  CHEF
+  BUSINESS
+  ADMIN
+}
+
+enum DifficultyLevel {
+  Easy
+  Medium
+  Advanced
+}
+
+enum CuisineType {
+  Italian
+  Japanese
+  Mexican
+  Indian
+  Chinese
+  French
+  Mediterranean
+  American
+  Thai
+  Other
+}
+
+enum InteractionType {
+  VIEW
+  SAVE
+  SHARE
+  START
+  COMPLETE
+  RATE
+  COMMENT
+  PURCHASE
+}
+
+enum PriceCategory {
+  BUDGET
+  MEDIUM
+  PREMIUM
+  LUXURY
+}
+
+enum TasteValue {
+  MEH       // Basic satisfaction
+  GOOD      // Above average taste
+  GREAT     // Excellent taste
+  CRAVE     // Irresistible, must-have-again
+  LEGENDARY // Life-changing, worth-traveling-for
+}

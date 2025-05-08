@@ -1,0 +1,69 @@
+---
+# Example configuration file for Recipe Value System
+# This file demonstrates the structure and options available
+
+system:
+  name: "Recipe Value System"
+  version: "1.0.0"
+  debug: false
+  log_level: "INFO"
+
+database:
+  type: "postgresql"
+  host: "localhost"
+  port: 5432
+  name: "recipe_value"
+  user: "postgres"
+  password: ""
+  pool_size: 5
+  max_overflow: 10
+  timeout: 30
+
+cache:
+  type: "redis"
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: null
+  ttl: 3600  # 1 hour in seconds
+
+value:
+  default_mode: "standard"
+  confidence_threshold: 0.6
+  cache_ttl_hours: 1
+  component_weights:
+    taste: 0.35
+    health: 0.25
+    time: 0.15
+    effort: 0.15
+    cost: 0.10
+
+api:
+  host: "0.0.0.0"
+  port: 5000
+  workers: 4
+  timeout: 60
+  rate_limit: 100  # requests per minute
+
+# User-specific settings
+users:
+  default_preferences:
+    cuisines: ["Italian", "American", "Mexican"]
+    meal_types: ["Dinner", "Lunch"]
+    difficulty: 3
+    time_preference: "medium"
+  premium_features:
+    advanced_filtering: true
+    personalized_recommendations: true
+    export_formats: ["pdf", "csv", "json"]
+
+# Learning system settings
+learning:
+  feedback_weight: 0.7
+  history_weight: 0.3
+  min_samples: 5
+  update_frequency: "daily"
+  algorithms:
+    collaborative_filtering: true
+    content_based: true
+    hybrid: true

@@ -1,0 +1,180 @@
+{
+  "title": "The Perfect Roast Turkey",
+  "status": "excellent",
+  "yields": "10-12 servings",
+  "description": "This isn't just a roast turkey - it's a masterclass in poultry perfection, inspired by Alton Brown's scientific approach. The secret lies in a precise brining process, calculated temperature control, and strategic aromatics placement. The result is a perfectly golden-brown bird with juicy breast meat, properly cooked dark meat, and crispy skin.",
+  "ingredients": {
+    "brine": [
+      {
+        "text": "1 cup kosher salt",
+        "amount": "1",
+        "unit": "cup",
+        "name": "kosher salt",
+        "notes": "Diamond Crystal (if using Morton's, use 3/4 cup)"
+      },
+      {
+        "text": "1/2 cup light brown sugar",
+        "amount": "0.5",
+        "unit": "cup",
+        "name": "light brown sugar",
+        "notes": "Packed"
+      },
+      {
+        "text": "1 gallon vegetable stock",
+        "amount": "1",
+        "unit": "gallon",
+        "name": "vegetable stock",
+        "notes": "Homemade or low-sodium"
+      },
+      {
+        "text": "1 tablespoon black peppercorns",
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "black peppercorns",
+        "notes": "Whole"
+      },
+      {
+        "text": "1 1/2 teaspoons allspice berries",
+        "amount": "1.5",
+        "unit": "teaspoon",
+        "name": "allspice berries",
+        "notes": "Whole"
+      },
+      {
+        "text": "1 1/2 teaspoons chopped candied ginger",
+        "amount": "1.5",
+        "unit": "teaspoon",
+        "name": "candied ginger",
+        "notes": "Finely chopped"
+      },
+      {
+        "text": "1 gallon heavily iced water",
+        "amount": "1",
+        "unit": "gallon",
+        "name": "ice water",
+        "notes": "For cooling brine"
+      }
+    ],
+    "aromatics": [
+      {
+        "text": "1 red apple",
+        "amount": "1",
+        "unit": null,
+        "name": "red apple",
+        "notes": "Quartered, preferably Honeycrisp or Braeburn"
+      },
+      {
+        "text": "1 onion",
+        "amount": "1",
+        "unit": null,
+        "name": "onion",
+        "notes": "Quartered"
+      },
+      {
+        "text": "1 cinnamon stick",
+        "amount": "1",
+        "unit": null,
+        "name": "cinnamon stick",
+        "notes": "4-inch piece"
+      },
+      {
+        "text": "4 sprigs rosemary",
+        "amount": "4",
+        "unit": "sprig",
+        "name": "rosemary",
+        "notes": "Fresh only"
+      },
+      {
+        "text": "6 leaves sage",
+        "amount": "6",
+        "unit": null,
+        "name": "sage",
+        "notes": "Fresh, large leaves"
+      },
+      {
+        "text": "1 orange",
+        "amount": "1",
+        "unit": null,
+        "name": "orange",
+        "notes": "Quartered"
+      }
+    ],
+    "turkey": [
+      {
+        "text": "1 14-16 pound turkey",
+        "amount": "14",
+        "unit": "pound",
+        "name": "whole turkey",
+        "notes": "Fresh preferred, if frozen thaw in refrigerator 4-5 days ahead"
+      }
+    ],
+    "basting mixture": [
+      {
+        "text": "8 tablespoons unsalted butter",
+        "amount": "8",
+        "unit": "tablespoon",
+        "name": "unsalted butter",
+        "notes": "Melted"
+      },
+      {
+        "text": "1 tablespoon fresh herbs",
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "mixed fresh herbs",
+        "notes": "Finely chopped mix of sage, thyme, and rosemary"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "BRINE PREPARATION (2-3 DAYS BEFORE): Combine vegetable stock, salt, brown sugar, peppercorns, allspice berries, and candied ginger in a large stockpot. Bring to a boil, stirring to dissolve salt and sugar. Remove from heat, cool to room temperature, then refrigerate until thoroughly chilled."
+    },
+    {
+      "text": "BRINING (24-36 HOURS BEFORE): Combine chilled brine with ice water in a large container. Clean turkey by removing giblets and neck (reserve for gravy). Immerse turkey in brine, breast side down, weight with a plate if necessary to keep submerged. Refrigerate for 24-36 hours."
+    },
+    {
+      "text": "AIR DRY (NIGHT BEFORE): Remove turkey from brine, rinse inside and out under cold water. Place on a rack over a rimmed baking sheet. Pat dry thoroughly with paper towels. Refrigerate uncovered overnight to dry the skin."
+    },
+    {
+      "text": "PREPARATION (DAY OF): Remove turkey from refrigerator 1 hour before roasting. Preheat oven to 500°F with rack in lowest position. Combine apple, onion, cinnamon stick, and herbs in a microwave-safe bowl. Microwave on high for 5 minutes."
+    },
+    {
+      "text": "STUFF AND TRUSS: Place aromatic mixture inside turkey cavity along with orange quarters. Tuck wing tips behind back. Tie legs together with kitchen twine. Pat skin dry again."
+    },
+    {
+      "text": "INITIAL ROAST: Place turkey on roasting rack in a large roasting pan. Brush with half the herb butter. Roast at 500°F for 30 minutes until skin begins to brown."
+    },
+    {
+      "text": "TEMPERATURE ADJUSTMENT: Insert probe thermometer into thickest part of breast. Reduce oven temperature to 350°F. Add 2 cups water to roasting pan."
+    },
+    {
+      "text": "MAIN ROAST: Continue roasting, brushing with remaining butter halfway through, until internal temperature reaches exactly 157°F in breast and 175°F in thigh, about 2-2.5 hours total for a 14-16 pound bird."
+    },
+    {
+      "text": "RESTING: Remove from oven, tent loosely with foil, and let rest for exactly 30 minutes. During this time, the temperature will rise to 165°F in the breast through carryover cooking."
+    },
+    {
+      "text": "CARVING: Remove twine and aromatics. Carve turkey, starting with legs and thighs, then wings, then breast meat cut against the grain."
+    }
+  ],
+  "notes": [
+    "BRINING SCIENCE: The salt solution alters protein structures, helping the meat retain moisture during cooking. The sugar aids in browning and balances the salt.",
+    "TEMPERATURE CONTROL: The initial high heat (500°F) creates a moisture barrier in the skin. The lower temperature (350°F) then allows for even cooking.",
+    "TIMING GUIDE: Plan backwards from serving time: 30 minutes rest + 2-2.5 hours roasting + 1 hour tempering + overnight drying + 24-36 hours brining.",
+    "DONENESS: The target temperature of 157°F might seem low, but carryover cooking will bring it to the safe temperature of 165°F while keeping the meat juicy.",
+    "VARIATIONS: For a smaller turkey (under 14 pounds), reduce cooking time accordingly. For larger turkeys, spatchcock (butterfly) for more even cooking.",
+    "LEFTOVERS: Carve all remaining meat off bones within 2 hours. Store meat and bones separately. Bones can be used for stock.",
+    "SAFETY: Never stuff a brined turkey with traditional stuffing - the salt content will make it inedible. Use aromatics only."
+  ],
+  "source_url": "http://www.foodnetwork.com/recipes/alton-brown/good-eats-roast-turkey-recipe.html",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 1.0,
+    "temperature_validity": 1.0,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

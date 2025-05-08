@@ -1,0 +1,66 @@
+{
+  "title": "Peanut Butter No Bake Cookies",
+  "ingredients": [
+    {
+      "text": "2 cups sugar",
+      "amount": "2",
+      "unit": "cup",
+      "name": "sugar"
+    },
+    {
+      "text": "1 \u2044 4 cup margarine",
+      "amount": null,
+      "unit": null,
+      "name": "1 \u2044 4 cup margarine"
+    },
+    {
+      "text": "1 \u2044 2 cup milk",
+      "amount": null,
+      "unit": null,
+      "name": "1 \u2044 2 cup milk"
+    },
+    {
+      "text": "1 cup peanut butter",
+      "amount": "1",
+      "unit": "cup",
+      "name": "peanut butter"
+    },
+    {
+      "text": "1 teaspoon vanilla",
+      "amount": "1",
+      "unit": "teaspoon",
+      "name": "vanilla"
+    },
+    {
+      "text": "3 cups rolled oats (old fashioned)",
+      "amount": "3",
+      "unit": "cup",
+      "name": "rolled oats (old fashioned)"
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In lg saucepan, mix sugar, margarine, and milk; bring to a full, rolling boil over med heat. (full, rolling boil = large bubbles rising to surface that can't be stirred down)."
+    },
+    {
+      "text": "Boil for one minute, stirring constantly."
+    },
+    {
+      "text": "Remove from heat and stir in peanut butter and vanilla, stirring until peanut butter is melted; stir in oats."
+    },
+    {
+      "text": "Working quickly, drop by spoonfuls onto waxed paper . Let cool completely."
+    }
+  ],
+  "source_url": "http://www.food.com/recipe/peanut-butter-no-bake-cookies-129040",
+  "quality_metrics": {
+    "overall_quality": 0.6030625000000002,
+    "completeness_score": 0.9,
+    "instruction_clarity": 0.38425000000000004,
+    "ingredient_validity": 0.66,
+    "timing_validity": 0.5,
+    "temperature_validity": 0.5,
+    "portion_consistency": 0.5,
+    "needs_improvement": true
+  }
+}

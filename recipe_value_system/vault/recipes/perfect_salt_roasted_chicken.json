@@ -1,0 +1,108 @@
+{
+  "title": "Perfect Salt-Crusted Roast Chicken",
+  "status": "legendary",
+  "yields": "4-6 servings",
+  "description": "This isn't just another roast chicken - it's a masterclass in achieving the perfect bird. The salt crust method creates incredibly juicy meat while ensuring perfectly crispy skin. The genius lies in its simplicity: just salt, chicken, and proper technique. When done right, this method produces a chicken that's worthy of a Michelin-starred restaurant.",
+  "ingredients": {
+    "main": [
+      {
+        "text": "1 (3½ pound) whole chicken, at room temperature",
+        "amount": "3.5",
+        "unit": "pound",
+        "name": "whole chicken, at room temperature",
+        "notes": "Quality matters - use an air-chilled, free-range chicken if possible"
+      },
+      {
+        "text": "3 tablespoons kosher salt",
+        "amount": "3",
+        "unit": "tablespoon",
+        "name": "kosher salt",
+        "notes": "Diamond Crystal preferred; if using Morton's, use 2 tablespoons"
+      }
+    ],
+    "aromatics": [
+      {
+        "text": "1 tablespoon fresh thyme leaves",
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "fresh thyme leaves"
+      },
+      {
+        "text": "1 whole lemon",
+        "amount": "1",
+        "unit": null,
+        "name": "lemon"
+      },
+      {
+        "text": "1 head garlic, halved crosswise",
+        "amount": "1",
+        "unit": null,
+        "name": "head garlic"
+      }
+    ],
+    "for pan sauce (optional)": [
+      {
+        "text": "1/2 cup chicken stock or white wine",
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "chicken stock or white wine"
+      },
+      {
+        "text": "2 tablespoons butter",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "butter"
+      },
+      {
+        "text": "Fresh herbs (thyme, parsley)",
+        "amount": null,
+        "unit": null,
+        "name": "fresh herbs"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "PREPARATION: Remove chicken from refrigerator 1-2 hours before cooking. A room temperature chicken will cook more evenly. Pat the chicken completely dry with paper towels - this is crucial for crispy skin."
+    },
+    {
+      "text": "SALT COATING: Sprinkle about 1 tablespoon of kosher salt inside the cavity of the chicken. Mix remaining salt with chopped thyme. Carefully loosen the skin over the breast and thighs, then rub some of the salt mixture directly under the skin. Rub the remaining salt mixture all over the outside of the chicken."
+    },
+    {
+      "text": "AROMATICS: Quarter the lemon. Place lemon quarters and halved garlic head inside the cavity. Tie legs together with kitchen twine and tuck wing tips behind the back."
+    },
+    {
+      "text": "RESTING: Place the salted chicken on a wire rack set in a rimmed baking sheet. Let it rest uncovered at room temperature for 30 minutes to allow the salt to penetrate the meat."
+    },
+    {
+      "text": "PREHEAT: Position a rack in the middle of the oven and preheat to 425°F (220°C). Place a cast iron skillet or roasting pan in the oven to preheat."
+    },
+    {
+      "text": "ROASTING: Place chicken breast-side up in the preheated pan. Roast for 15 minutes at 425°F, then reduce temperature to 375°F (190°C). Continue roasting for about 45-55 minutes, or until the thickest part of the thigh registers 165°F (74°C)."
+    },
+    {
+      "text": "RESTING: Transfer chicken to a cutting board and let rest for 15-20 minutes before carving. This allows the juices to redistribute throughout the meat."
+    },
+    {
+      "text": "PAN SAUCE (Optional): While the chicken rests, pour off all but 2 tablespoons of fat from the roasting pan. Place over medium heat, add stock or wine, and scrape up the browned bits. Simmer until reduced by half, then swirl in butter and add fresh herbs."
+    }
+  ],
+  "notes": [
+    "THE SALT: The type of salt matters. Diamond Crystal kosher salt is preferred because of its crystal structure. If using Morton's kosher salt, use about 2 tablespoons instead of 3.",
+    "THE CHICKEN: An air-chilled chicken will give you crispier skin than a water-chilled bird. The quality of your chicken will directly impact the final result.",
+    "TEMPERATURE: Don't skip bringing the chicken to room temperature - this is crucial for even cooking.",
+    "DONENESS: Use a meat thermometer for perfect doneness. Insert it into the thickest part of the thigh without touching bone.",
+    "CRISPINESS: The key to crispy skin is thoroughly drying the chicken before salting and letting it rest uncovered before roasting."
+  ],
+  "source_url": "https://www.allrecipes.com/video/4053/chef-johns-salt-roasted-chicken/",
+  "quality_metrics": {
+    "overall_quality": 0.95,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 0.95,
+    "timing_validity": 0.95,
+    "temperature_validity": 0.95,
+    "portion_consistency": 0.9,
+    "needs_improvement": false
+  }
+}

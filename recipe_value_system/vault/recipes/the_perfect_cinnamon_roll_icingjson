@@ -1,0 +1,71 @@
+{
+  "title": "The Perfect Cinnamon Roll Icing",
+  "yields": null,
+  "ingredients": [
+    {
+      "text": "7 tablespoons butter, softened",
+      "amount": "7",
+      "unit": "tablespoon",
+      "name": "butter, softened"
+    },
+    {
+      "text": "2 ounces cream cheese, softened",
+      "amount": "2",
+      "unit": "ounce",
+      "name": "cream cheese, softened"
+    },
+    {
+      "text": "2 tablespoons milk",
+      "amount": "2",
+      "unit": "tablespoon",
+      "name": "milk"
+    },
+    {
+      "text": "½ teaspoon vanilla extract",
+      "amount": null,
+      "unit": null,
+      "name": "½ teaspoon vanilla extract"
+    },
+    {
+      "text": "1 ½ cups confectioners' sugar, sifted",
+      "amount": null,
+      "unit": null,
+      "name": "1 ½ cups confectioners' sugar, sifted"
+    },
+    {
+      "text": "¼ teaspoon salt",
+      "amount": null,
+      "unit": null,
+      "name": "¼ teaspoon salt"
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Gather all ingredients. Dotdash Meredith Food Studios"
+    },
+    {
+      "text": "Beat butter and cream cheese together in a large bowl with an electric mixer until creamy. Dotdash Meredith Food Studios"
+    },
+    {
+      "text": "Blend in milk and vanilla. Dotdash Meredith Food Studios"
+    },
+    {
+      "text": "Gradually mix in confectioners' sugar and salt until smooth and fluffy. Dotdash Meredith Food Studios"
+    },
+    {
+      "text": "Spread over cinnamon rolls and enjoy! Dotdash Meredith Food Studios"
+    }
+  ],
+  "source_url": "https://www.allrecipes.com/recipe/216759/the-perfect-cinnamon-roll-icing/",
+  "source_text": null,
+  "quality_metrics": {
+    "overall_quality": 0.5355000000000001,
+    "completeness_score": 0.9,
+    "instruction_clarity": 0.162,
+    "ingredient_validity": 0.6000000000000001,
+    "timing_validity": 0.5,
+    "temperature_validity": 0.5,
+    "portion_consistency": 0.5,
+    "needs_improvement": true
+  }
+}

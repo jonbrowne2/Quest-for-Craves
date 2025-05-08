@@ -1,0 +1,127 @@
+{
+  "title": "Brownie Crinkle Cookies",
+  "yields": {
+    "text": "Makes 10"
+  },
+  "ingredients": [
+    {
+      "text": "200g dark chocolate (around 65-70% cocoa solids), finely chopped",
+      "amount": "200",
+      "unit": "g",
+      "name": "dark chocolate (around 65-70% cocoa solids), finely chopped"
+    },
+    {
+      "text": "125g unsalted butter, diced",
+      "amount": "125",
+      "unit": "g",
+      "name": "unsalted butter, diced"
+    },
+    {
+      "text": "150g caster sugar",
+      "amount": "150",
+      "unit": "g",
+      "name": "caster sugar"
+    },
+    {
+      "text": "100g light brown sugar",
+      "amount": "100",
+      "unit": "g",
+      "name": "light brown sugar"
+    },
+    {
+      "text": "2 large eggs",
+      "amount": null,
+      "unit": null,
+      "name": "2 large eggs"
+    },
+    {
+      "text": "130g plain flour",
+      "amount": "130",
+      "unit": "g",
+      "name": "plain flour"
+    },
+    {
+      "text": "3 tbsp cocoa powder (dutch processed)",
+      "amount": "3",
+      "unit": "tbsp",
+      "name": "cocoa powder (dutch processed)"
+    },
+    {
+      "text": "1 tsp baking powder",
+      "amount": "1",
+      "unit": "tsp",
+      "name": "baking powder"
+    },
+    {
+      "text": "1/4 tsp salt (plus flaked sea salt for sprinkling)",
+      "amount": "1/4",
+      "unit": "tsp",
+      "name": "salt (plus flaked sea salt for sprinkling)"
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Temperature and timing is very important with this recipe so before you start get all the ingredients weighed out, two baking trays lined with parchment paper and the oven preheated to 180C (160C fan) 350F."
+    },
+    {
+      "text": "Place the butter and chocolate into a heatproof bowl and set over a pan and gently simmering water."
+    },
+    {
+      "text": "Allow to melt, stirring occasionally until fully melted."
+    },
+    {
+      "text": "Remove the bowl from the heat and set aside for the moment."
+    },
+    {
+      "text": "In the bowl of a stand mixer fitted with the whisk attachment, or using an electric hand mixer, whisk together the eggs and sugars, on medium-high speed, for exactly 5 minutes."
+    },
+    {
+      "text": "Once the eggs have been mixing for exactly 5 minutes pour in the chocolate mixture and mix for a minute or so to combine."
+    },
+    {
+      "text": "Meanwhile mix together the dry ingredients, sieving the cocoa powder if it has lots of lumps."
+    },
+    {
+      "text": "Add the dry ingredients and mix very briefly just until combined."
+    },
+    {
+      "text": "Use your spatula to give one last mix, scraping the bottom of the bowl to make sure everything is evenly combined."
+    },
+    {
+      "text": "Use a ice cream scoop to form the cookies."
+    },
+    {
+      "text": "The batter will be a little on the wet side, so invert the cookie scoop just above the baking tray to avoid spills."
+    },
+    {
+      "text": "Make sure to leave plenty of space between each cookie as they will spread."
+    },
+    {
+      "text": "Sprinkle each cookie with a little flaked sea salt before placing into the oven and baking for 12 minutes."
+    },
+    {
+      "text": "The cookies will come out of the oven with that wonderful crinkled look and slightly domed."
+    },
+    {
+      "text": "They will collapse a little as they cool but this helps form that perfect fudgy centre."
+    },
+    {
+      "text": "The cookies will be very soft so allow them to cool on the baking trays for at least 20-30 minutes before removing from the tray to cool completley."
+    },
+    {
+      "text": "These cookies will keep for 4-5 days but will be best within the first 3 days."
+    }
+  ],
+  "source_url": null,
+  "source_text": "Brownie Crinkle Cookies\nMakes 10\n\n200g dark chocolate (around 65-70% cocoa solids), finely chopped\n125g unsalted butter, diced\n150g caster sugar\n100g light brown sugar\n2 large eggs\n130g plain flour\n3 tbsp cocoa powder (dutch processed)\n1 tsp baking powder\n1/4 tsp salt (plus flaked sea salt for sprinkling)\n\nTemperature and timing is very important with this recipe so before you start get all the ingredients weighed out, two baking trays lined with parchment paper and the oven preheated to 180C (160C fan) 350F.\n\nPlace the butter and chocolate into a heatproof bowl and set over a pan and gently simmering water. Allow to melt, stirring occasionally until fully melted. Remove the bowl from the heat and set aside for the moment. In the bowl of a stand mixer fitted with the whisk attachment, or using an electric hand mixer, whisk together the eggs and sugars, on medium-high speed, for exactly 5 minutes. Once the eggs have been mixing for exactly 5 minutes pour in the chocolate mixture and mix for a minute or so to combine. Meanwhile mix together the dry ingredients, sieving the cocoa powder if it has lots of lumps. Add the dry ingredients and mix very briefly just until combined. Use your spatula to give one last mix, scraping the bottom of the bowl to make sure everything is evenly combined. Use a ice cream scoop to form the cookies. The batter will be a little on the wet side, so invert the cookie scoop just above the baking tray to avoid spills. Make sure to leave plenty of space between each cookie as they will spread. Sprinkle each cookie with a little flaked sea salt before placing into the oven and baking for 12 minutes. The cookies will come out of the oven with that wonderful crinkled look and slightly domed. They will collapse a little as they cool but this helps form that perfect fudgy centre. The cookies will be very soft so allow them to cool on the baking trays for at least 20-30 minutes before removing from the tray to cool completley. \n\nThese cookies will keep for 4-5 days but will be best within the first 3 days.",
+  "quality_metrics": {
+    "overall_quality": 0.5505980392156863,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.27705882352941175,
+    "ingredient_validity": 0.4066666666666667,
+    "timing_validity": 0.5,
+    "temperature_validity": 0.5,
+    "portion_consistency": 0.5,
+    "needs_improvement": true
+  }
+}

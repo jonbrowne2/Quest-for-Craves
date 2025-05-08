@@ -1,0 +1,130 @@
+{
+  "title": "Nekisia Davis's Legendary Olive Oil & Maple Granola",
+  "status": "legendary",
+  "yields": "7 cups (about 14 servings)",
+  "description": "This isn't just granola - it's a game-changer that revolutionized artisanal granola making. Created by Nekisia Davis of Early Bird Foods, this recipe transforms humble ingredients into clusters of pure gold through the unexpected use of olive oil and a precise baking technique. The result is a perfectly balanced, not-too-sweet granola with a complex flavor profile and addictive crunch.",
+  "ingredients": {
+    "dry base": [
+      {
+        "text": "3 cups old-fashioned rolled oats",
+        "amount": "3",
+        "unit": "cup",
+        "name": "old-fashioned rolled oats",
+        "notes": "Use thick-cut, high-quality oats - they hold up better during baking"
+      },
+      {
+        "text": "1 cup unsweetened coconut chips",
+        "amount": "1",
+        "unit": "cup",
+        "name": "unsweetened coconut chips",
+        "notes": "Use large coconut chips (not shredded) for better texture"
+      },
+      {
+        "text": "1 1/4 cups raw pecans",
+        "amount": "1.25",
+        "unit": "cup",
+        "name": "raw pecans",
+        "notes": "Left whole or very coarsely chopped - they'll break naturally during baking"
+      },
+      {
+        "text": "1 cup raw pumpkin seeds",
+        "amount": "1",
+        "unit": "cup",
+        "name": "raw pumpkin seeds",
+        "notes": "Also known as pepitas - use hulled seeds"
+      },
+      {
+        "text": "1 cup raw sunflower seeds",
+        "amount": "1",
+        "unit": "cup",
+        "name": "raw sunflower seeds",
+        "notes": "Hulled seeds, unsalted"
+      }
+    ],
+    "seasoning": [
+      {
+        "text": "1 teaspoon kosher salt",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "kosher salt",
+        "notes": "Diamond Crystal kosher salt preferred (if using Morton's, use 3/4 teaspoon)"
+      }
+    ],
+    "wet ingredients": [
+      {
+        "text": "3/4 cup extra virgin olive oil",
+        "amount": "0.75",
+        "unit": "cup",
+        "name": "extra virgin olive oil",
+        "notes": "Use a high-quality, fruity olive oil - it's crucial to the flavor"
+      },
+      {
+        "text": "1/2 cup pure maple syrup",
+        "amount": "0.5",
+        "unit": "cup",
+        "name": "pure maple syrup",
+        "notes": "Grade A Dark Robust (formerly Grade B) preferred for stronger flavor"
+      }
+    ],
+    "optional additions": [
+      {
+        "text": "1 cup dried fruit",
+        "amount": "1",
+        "unit": "cup",
+        "name": "dried fruit",
+        "notes": "Add after baking: sour cherries, cranberries, or chopped apricots work well"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "PREPARATION: Position racks in the upper and lower thirds of the oven and preheat to 300°F (150°C). Line two rimmed baking sheets with parchment paper."
+    },
+    {
+      "text": "COMBINE DRY INGREDIENTS: In a large bowl, combine the oats, coconut chips, pecans, pumpkin seeds, sunflower seeds, and salt. Mix thoroughly to ensure even distribution of salt."
+    },
+    {
+      "text": "PREPARE WET INGREDIENTS: In a separate bowl or measuring cup, whisk together the olive oil and maple syrup until well combined."
+    },
+    {
+      "text": "COMBINE AND COAT: Pour the olive oil mixture over the dry ingredients. Using your hands or a sturdy spatula, mix thoroughly until every piece is well coated. This takes about 2 minutes - be thorough."
+    },
+    {
+      "text": "SPREAD: Divide the mixture evenly between the two prepared baking sheets, spreading it in a single layer. Don't compress - this granola gets its unique texture from loose clustering."
+    },
+    {
+      "text": "FIRST BAKE: Place the sheets in the oven and bake for 15 minutes."
+    },
+    {
+      "text": "ROTATE AND STIR: Remove sheets from oven, stir well with a spatula, and rotate the sheets top to bottom and front to back. Pay special attention to the edges, which tend to brown faster."
+    },
+    {
+      "text": "FINAL BAKE: Return to oven and bake for another 15-20 minutes, until the granola is golden brown and the coconut is deeply toasted. Watch carefully in the final minutes - coconut can burn quickly."
+    },
+    {
+      "text": "COOLING: Remove from oven and let cool completely on the baking sheets. The granola will crisp up as it cools."
+    },
+    {
+      "text": "FINISHING: Once completely cool, transfer to an airtight container. If using, stir in dried fruit now."
+    }
+  ],
+  "notes": [
+    "OLIVE OIL SELECTION: The olive oil isn't just for texture - it contributes significantly to the flavor. Use a good quality, fruity olive oil that you enjoy the taste of.",
+    "TEMPERATURE CONTROL: 300°F is crucial - any hotter and the nuts will burn before the oats are properly toasted.",
+    "COCONUT TIPS: The coconut chips are the canary in the coal mine - when they're deeply golden brown (but not burnt), your granola is done.",
+    "CLUSTERING: Unlike many granolas, this one isn't pressed down for big clusters. The magic happens naturally through proper coating and careful baking.",
+    "STORAGE: Keeps for up to 1 month in an airtight container at room temperature. The olive oil helps preserve freshness.",
+    "SERVING: Perfect on its own, with milk, or as a topping for yogurt. Also makes an excellent gift when packed in mason jars."
+  ],
+  "source_url": "https://food52.com/recipes/15831-nekisia-davis-olive-oil-maple-granola",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 1.0,
+    "temperature_validity": 1.0,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

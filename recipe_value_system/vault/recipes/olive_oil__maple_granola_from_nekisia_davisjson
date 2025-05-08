@@ -1,0 +1,92 @@
+{
+  "title": "Olive Oil & Maple Granola From Nekisia Davis",
+  "yields": null,
+  "ingredients": [
+    {
+      "text": "3 cups old-fashioned rolled oats",
+      "amount": "3",
+      "unit": "cup",
+      "name": "old-fashioned rolled oats"
+    },
+    {
+      "text": "1 1 / 4 cups raw pecans, left whole or coarsely chopped",
+      "amount": "1 1 / 4",
+      "unit": "cup",
+      "name": "raw pecans, left whole or coarsely chopped"
+    },
+    {
+      "text": "1 cup hulled raw pumpkin seeds",
+      "amount": "1",
+      "unit": "cup",
+      "name": "hulled raw pumpkin seeds"
+    },
+    {
+      "text": "1 cup hulled raw sunflower seeds",
+      "amount": "1",
+      "unit": "cup",
+      "name": "hulled raw sunflower seeds"
+    },
+    {
+      "text": "1 cup unsweetened coconut chips",
+      "amount": "1",
+      "unit": "cup",
+      "name": "unsweetened coconut chips"
+    },
+    {
+      "text": "3 / 4 cup pure maple syrup",
+      "amount": "3 / 4",
+      "unit": "cup",
+      "name": "pure maple syrup"
+    },
+    {
+      "text": "1 / 2 cup extra-virgin olive oil",
+      "amount": "1 / 2",
+      "unit": "cup",
+      "name": "extra-virgin olive oil"
+    },
+    {
+      "text": "1 / 2 cup packed light brown sugar",
+      "amount": "1 / 2",
+      "unit": "cup",
+      "name": "packed light brown sugar"
+    },
+    {
+      "text": "1 teaspoon kosher salt, plus more to taste",
+      "amount": "1",
+      "unit": "teaspoon",
+      "name": "kosher salt, plus more to taste"
+    }
+  ],
+  "instructions": [
+    {
+      "text": "Recipes"
+    },
+    {
+      "text": "Breakfast"
+    },
+    {
+      "text": "Heat the oven to 300°F. In a large bowl, mix the oats, pecans, pumpkin seeds, sunflower seeds, coconut, syrup, oil, brown sugar, and 1 teaspoon of the salt until well combined."
+    },
+    {
+      "text": "Spread the mixture in an even layer on a rimmed baking sheet. Bake, stirring every 10 to 15 minutes, for about 45 minutes total, until the granola is toasted."
+    },
+    {
+      "text": "Remove the granola from the oven; season with salt to taste. Let cool completely before serving."
+    },
+    {
+      "text": "Do Ahead: The granola can be made 1 month ahead. Transfer to an airtight container and store at room temperature."
+    }
+  ],
+  "source_url": "https://food52.com/recipes/15831-nekisia-davis-olive-oil-maple-granola",
+  "source_text": null,
+  "quality_metrics": {
+    "overall_quality": 0.6256666666666667,
+    "completeness_score": 0.9,
+    "instruction_clarity": 0.27999999999999997,
+    "ingredient_validity": 0.6533333333333334,
+    "timing_validity": 0.5,
+    "temperature_validity": 1.0,
+    "portion_consistency": 0.5,
+    "needs_improvement": true
+  }
+}

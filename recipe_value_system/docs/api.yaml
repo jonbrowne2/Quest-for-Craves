@@ -1,0 +1,206 @@
+openapi: 3.0.0
+info:
+  title: FoodieFix Recipe API
+  version: 1.0.0
+  description: API for managing recipes and recipe analytics
+
+servers:
+  - url: /api
+
+components:
+  schemas:
+    Recipe:
+      type: object
+      required:
+        - title
+        - description
+        - difficulty
+        - cuisine
+        - prepTime
+        - cookTime
+        - servings
+        - ingredients
+        - instructions
+        - userId
+      properties:
+        id:
+          type: string
+          format: uuid
+        title:
+          type: string
+          minLength: 3
+          maxLength: 100
+        description:
+          type: string
+          minLength: 10
+          maxLength: 1000
+        difficulty:
+          type: string
+          enum: [EASY, MEDIUM, HARD]
+        cuisine:
+          type: string
+          enum: [ITALIAN, JAPANESE, MEXICAN, INDIAN, CHINESE, FRENCH, MEDITERRANEAN, AMERICAN, THAI, OTHER]
+        prepTime:
+          type: integer
+          minimum: 1
+        cookTime:
+          type: integer
+          minimum: 1
+        servings:
+          type: integer
+          minimum: 1
+        ingredients:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              amount:
+                type: number
+              unit:
+                type: string
+        instructions:
+          type: array
+          items:
+            type: object
+            properties:
+              step:
+                type: integer
+              text:
+                type: string
+        analytics:
+          type: object
+          properties:
+            viewCount:
+              type: integer
+            saveCount:
+              type: integer
+            shareCount:
+              type: integer
+            craveRate:
+              type: number
+            valueScore:
+              type: number
+
+paths:
+  /recipes:
+    get:
+      summary: List recipes
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+            maximum: 100
+        - name: fields
+          in: query
+          schema:
+            type: string
+            description: Comma-separated list of fields to include
+      responses:
+        '200':
+          description: List of recipes with pagination
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: object
+                    properties:
+                      recipes:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Recipe'
+                      pagination:
+                        type: object
+                        properties:
+                          page:
+                            type: integer
+                          limit:
+                            type: integer
+                          total:
+                            type: integer
+                          pages:
+                            type: integer
+    post:
+      summary: Create a new recipe
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Recipe'
+      responses:
+        '201':
+          description: Recipe created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    $ref: '#/components/schemas/Recipe'
+        '422':
+          description: Validation error
+        '429':
+          description: Too many requests
+
+  /recipes/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: Get a recipe by ID
+      responses:
+        '200':
+          description: Recipe details
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    $ref: '#/components/schemas/Recipe'
+        '404':
+          description: Recipe not found
+    put:
+      summary: Update a recipe
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Recipe'
+      responses:
+        '200':
+          description: Recipe updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    $ref: '#/components/schemas/Recipe'
+        '404':
+          description: Recipe not found
+        '422':
+          description: Validation error

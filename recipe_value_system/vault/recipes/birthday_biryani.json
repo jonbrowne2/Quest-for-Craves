@@ -1,0 +1,213 @@
+{
+  "title": "Birthday Biryani",
+  "status": "legendary",
+  "yields": "6-8 servings",
+  "description": "This isn't just any biryani - it's a celebration of flavors worthy of the most special occasions. A masterpiece of aromatic basmati rice layered with tender, marinated chicken and a symphony of spices. The magic lies in the slow cooking process that allows each grain of rice to absorb the complex flavors while maintaining its individual perfection. When the lid is lifted, the room fills with an intoxicating aroma that signals the start of a memorable feast.",
+  "ingredients": {
+    "marinade": [
+      {
+        "text": "750g (1.5 lb) chicken thighs, skin off, bone in, cut into large chunks",
+        "amount": "750",
+        "unit": "g",
+        "name": "chicken thighs"
+      },
+      {
+        "text": "1/2 cup plain yogurt (full fat)",
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "plain yogurt (full fat)"
+      },
+      {
+        "text": "2 tablespoons ginger garlic paste (or 4 cloves garlic + 2 inch ginger, minced)",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "ginger garlic paste"
+      },
+      {
+        "text": "1/2 teaspoon turmeric powder",
+        "amount": "1/2",
+        "unit": "teaspoon",
+        "name": "turmeric powder"
+      },
+      {
+        "text": "1 tablespoon garam masala (high quality)",
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "garam masala"
+      },
+      {
+        "text": "2 teaspoons ground cumin",
+        "amount": "2",
+        "unit": "teaspoon",
+        "name": "ground cumin"
+      },
+      {
+        "text": "2 teaspoons ground coriander",
+        "amount": "2",
+        "unit": "teaspoon",
+        "name": "ground coriander"
+      },
+      {
+        "text": "1 teaspoon chili powder (adjust to taste)",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "chili powder"
+      }
+    ],
+    "rice": [
+      {
+        "text": "2 cups premium aged basmati rice",
+        "amount": "2",
+        "unit": "cup",
+        "name": "premium aged basmati rice"
+      },
+      {
+        "text": "6 cups water",
+        "amount": "6",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "text": "2 bay leaves",
+        "amount": "2",
+        "unit": null,
+        "name": "bay leaves"
+      },
+      {
+        "text": "6 green cardamom pods",
+        "amount": "6",
+        "unit": null,
+        "name": "green cardamom pods"
+      },
+      {
+        "text": "6 cloves",
+        "amount": "6",
+        "unit": null,
+        "name": "cloves"
+      },
+      {
+        "text": "2 star anise",
+        "amount": "2",
+        "unit": null,
+        "name": "star anise"
+      },
+      {
+        "text": "1 cinnamon stick",
+        "amount": "1",
+        "unit": null,
+        "name": "cinnamon stick"
+      }
+    ],
+    "for cooking": [
+      {
+        "text": "3 tablespoons ghee (or butter)",
+        "amount": "3",
+        "unit": "tablespoon",
+        "name": "ghee"
+      },
+      {
+        "text": "2 large onions, thinly sliced",
+        "amount": "2",
+        "unit": null,
+        "name": "large onions, thinly sliced"
+      },
+      {
+        "text": "1/2 teaspoon salt",
+        "amount": "1/2",
+        "unit": "teaspoon",
+        "name": "salt"
+      }
+    ],
+    "for assembly": [
+      {
+        "text": "Large pinch saffron threads",
+        "amount": "1",
+        "unit": "pinch",
+        "name": "saffron threads"
+      },
+      {
+        "text": "1/4 cup warm milk",
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "warm milk"
+      },
+      {
+        "text": "1/4 cup chopped fresh mint",
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "fresh mint"
+      },
+      {
+        "text": "1/4 cup chopped fresh coriander/cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "fresh coriander/cilantro"
+      }
+    ],
+    "for garnish": [
+      {
+        "text": "Crispy fried onions (homemade or store-bought)",
+        "amount": null,
+        "unit": null,
+        "name": "crispy fried onions"
+      },
+      {
+        "text": "Extra chopped herbs",
+        "amount": null,
+        "unit": null,
+        "name": "chopped herbs"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "MARINADE: Combine all marinade ingredients in a large bowl. Add chicken and mix well. Marinate for at least 3 hours, preferably overnight for best results."
+    },
+    {
+      "text": "PREPARE SAFFRON: Soak saffron in warm milk and set aside - this will be used for the final drizzle."
+    },
+    {
+      "text": "RICE PREPARATION: Wash basmati rice thoroughly until water runs clear. Soak in cold water for 30 minutes, then drain."
+    },
+    {
+      "text": "PAR-COOK RICE: Bring water to boil in a large pot. Add all whole spices (bay leaves, cardamom, cloves, star anise, cinnamon) and salt. Add drained rice, cook for exactly 4 minutes (rice should be 70% cooked), then drain immediately."
+    },
+    {
+      "text": "CARAMELIZE ONIONS: Heat 2 tablespoons ghee in a large heavy-based pot over medium heat. Cook onions with salt for 15-20 minutes until deep golden brown. Remove half for garnish."
+    },
+    {
+      "text": "COOK CHICKEN: In the same pot with remaining onions, add marinated chicken. Cook for 5 minutes, stirring occasionally."
+    },
+    {
+      "text": "LAYERING (The crucial step): Layer in this order from bottom to top: chicken mixture, half the rice, half the herbs, remaining rice, remaining herbs. Drizzle saffron milk around the edges and center."
+    },
+    {
+      "text": "DUM COOKING: Cover pot with foil, then lid. Cook on low heat for 25-30 minutes - DO NOT LIFT LID during this time."
+    },
+    {
+      "text": "RESTING: Remove from heat. Let rest unopened for 10 minutes - this step is crucial for the rice to fully absorb all flavors."
+    },
+    {
+      "text": "SERVING: Gently mix the layers, taking care not to break the rice. Garnish with reserved caramelized onions, fresh herbs, and serve hot."
+    }
+  ],
+  "notes": [
+    "RICE SELECTION: Always use aged, premium basmati rice. The quality and age of the rice makes a significant difference in the final texture.",
+    "SPICE QUALITY: Use fresh, high-quality whole spices. The aroma of freshly ground spices is crucial for authentic flavor.",
+    "TIMING: Don't rush the process - proper marination time, onion caramelization, and dum cooking are essential for developing deep flavors.",
+    "LEFTOVERS: Biryani tastes even better the next day. Store in an airtight container in the refrigerator for up to 3 days.",
+    "SPECIAL OCCASION TIP: For an extra special touch, garnish with edible silver varq (if available) and serve with raita and salan."
+  ],
+  "source_url": "https://www.recipetineats.com/biryani/",
+  "personal_note": "A cherished birthday tradition that fills the house with incredible aromas and brings people together around the table. The anticipation builds as the biryani cooks, and lifting the lid reveals a feast worthy of the most special celebrations.",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 0.95,
+    "temperature_validity": 0.95,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

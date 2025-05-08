@@ -1,0 +1,197 @@
+{
+  "title": "Kerala-Style Beef Fry (Erachi Ularthiyathu)",
+  "status": "legendary",
+  "yields": "6 servings",
+  "description": "This isn't just a curry - it's a masterclass in South Indian beef preparation. Popular in Kerala, particularly in Syrian Christian households, this dish transforms tough beef into tender, caramelized morsels through slow cooking and careful spicing. The secret lies in the three-stage cooking process: initial pressure cooking with aromatics, slow reduction with ground spices, and final high-heat tempering with curry leaves and coconut.",
+  "ingredients": {
+    "meat and marinade": [
+      {
+        "text": "2 pounds beef chuck",
+        "amount": "2",
+        "unit": "pound",
+        "name": "beef chuck",
+        "notes": "Cut into 1-inch cubes, with some fat retained"
+      },
+      {
+        "text": "2 tablespoons ginger paste",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "ginger paste",
+        "notes": "Freshly ground from 3-inch piece"
+      },
+      {
+        "text": "2 tablespoons garlic paste",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "garlic paste",
+        "notes": "Freshly ground from 12-15 cloves"
+      },
+      {
+        "text": "1 tablespoon black pepper",
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "black pepper",
+        "notes": "Freshly ground Tellicherry pepper"
+      },
+      {
+        "text": "1 teaspoon turmeric powder",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "turmeric powder",
+        "notes": "High-quality Indian turmeric"
+      }
+    ],
+    "whole spices": [
+      {
+        "text": "4 green cardamom pods",
+        "amount": "4",
+        "unit": null,
+        "name": "green cardamom pods",
+        "notes": "Lightly crushed"
+      },
+      {
+        "text": "2 black cardamom pods",
+        "amount": "2",
+        "unit": null,
+        "name": "black cardamom pods",
+        "notes": "Optional but adds smokiness"
+      },
+      {
+        "text": "2 star anise",
+        "amount": "2",
+        "unit": null,
+        "name": "star anise",
+        "notes": "Whole"
+      },
+      {
+        "text": "2-inch cinnamon stick",
+        "amount": "2",
+        "unit": "inch",
+        "name": "cinnamon stick",
+        "notes": "Ceylon cinnamon preferred"
+      },
+      {
+        "text": "1 teaspoon fennel seeds",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "fennel seeds",
+        "notes": "Lightly toasted"
+      }
+    ],
+    "ground spice mix": [
+      {
+        "text": "2 tablespoons Kashmiri chili powder",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "Kashmiri chili powder",
+        "notes": "For color and mild heat"
+      },
+      {
+        "text": "1 tablespoon coriander powder",
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "coriander powder",
+        "notes": "Freshly ground if possible"
+      },
+      {
+        "text": "1 teaspoon garam masala",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "garam masala",
+        "notes": "Preferably homemade Kerala-style"
+      }
+    ],
+    "aromatics and vegetables": [
+      {
+        "text": "3 large onions",
+        "amount": "3",
+        "unit": null,
+        "name": "onions",
+        "notes": "Thinly sliced"
+      },
+      {
+        "text": "2 sprigs curry leaves",
+        "amount": "2",
+        "unit": "sprig",
+        "name": "curry leaves",
+        "notes": "Fresh only, about 20-24 leaves"
+      },
+      {
+        "text": "4 green chilies",
+        "amount": "4",
+        "unit": null,
+        "name": "green chilies",
+        "notes": "Slit lengthwise"
+      },
+      {
+        "text": "2 medium tomatoes",
+        "amount": "2",
+        "unit": null,
+        "name": "tomatoes",
+        "notes": "Finely chopped"
+      }
+    ],
+    "fats and finishing": [
+      {
+        "text": "1/4 cup coconut oil",
+        "amount": "0.25",
+        "unit": "cup",
+        "name": "coconut oil",
+        "notes": "Virgin coconut oil preferred"
+      },
+      {
+        "text": "1/2 cup fresh coconut",
+        "amount": "0.5",
+        "unit": "cup",
+        "name": "fresh coconut",
+        "notes": "Grated, or frozen fresh-grated"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "MARINATE MEAT: Combine beef with ginger paste, garlic paste, black pepper, and turmeric. Mix well and marinate for 30 minutes to 2 hours at room temperature."
+    },
+    {
+      "text": "INITIAL COOKING: Heat 2 tablespoons coconut oil in a pressure cooker. Add whole spices and let them crackle. Add onions, half the curry leaves, and green chilies. Sauté until onions are golden brown, about 10-12 minutes."
+    },
+    {
+      "text": "PRESSURE COOK: Add marinated beef and tomatoes. Mix well, add 1/2 cup water, seal pressure cooker. Cook for 4-5 whistles or about 20 minutes. Let pressure release naturally."
+    },
+    {
+      "text": "REDUCE: Open cooker, if there's excess liquid, cook on medium-high heat stirring occasionally until liquid is mostly evaporated, about 8-10 minutes."
+    },
+    {
+      "text": "ADD GROUND SPICES: Lower heat, add Kashmiri chili powder, coriander powder, and half the garam masala. Cook, stirring constantly, for 2-3 minutes to prevent spices from burning."
+    },
+    {
+      "text": "DRY COOKING: Continue cooking on medium heat, stirring frequently, until the beef starts to caramelize and brown on the edges, about 10-15 minutes."
+    },
+    {
+      "text": "FINAL TEMPERING: In a separate small pan, heat remaining coconut oil. Add remaining curry leaves - they should crackle immediately. Pour over the beef."
+    },
+    {
+      "text": "FINISHING: Add grated coconut and remaining garam masala. Cook for another 2-3 minutes until coconut is lightly toasted. Taste and adjust salt."
+    }
+  ],
+  "notes": [
+    "MEAT SELECTION: Choose beef chuck with good marbling. Some traditional versions use beef shank or cheek for extra texture.",
+    "SPICE BALANCE: The dish should be deeply spiced but not overwhelmingly hot. Kashmiri chilies provide color without excessive heat.",
+    "COCONUT OIL: Traditional Kerala preparation demands coconut oil for its distinct flavor. Don't substitute if possible.",
+    "SERVING: Traditionally served with Kerala parotta, appam, or steamed rice. Some prefer it as a bar snack with drinks.",
+    "TIMING: While delicious immediately, this dish improves overnight as flavors meld. Consider making it a day ahead.",
+    "VARIATIONS: Some versions include a splash of vinegar or kudampuli (kokum) for sourness. Others finish with a dash of brandy for depth.",
+    "STORAGE: Keeps well in the refrigerator for up to 4 days. The flavors actually improve with time."
+  ],
+  "source_url": "http://www.food.com/recipe/spicy-indian-beef-curry-351311",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 1.0,
+    "temperature_validity": 1.0,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

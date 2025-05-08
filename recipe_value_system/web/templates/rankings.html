@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hot 100 - Weekly Rankings</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div id="app" class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-white shadow-md">
+            <div class="max-w-7xl mx-auto px-4 py-6">
+                <div class="flex flex-col space-y-4">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <h1 class="text-3xl font-bold text-gray-900">Recipe Hot 100</h1>
+                            <p class="text-gray-600">
+                                {{ periodLabel }}
+                                <span class="text-sm">
+                                    ({{ new Date(periodStart).toLocaleDateString() }} -
+                                     {{ new Date(periodEnd).toLocaleDateString() }})
+                                </span>
+                            </p>
+                        </div>
+                        <div class="flex space-x-4">
+                            <button
+                                v-for="type in rankingTypes"
+                                :key="type.value"
+                                @click="setRankingType(type.value)"
+                                :class="[
+                                    'px-4 py-2 rounded-md',
+                                    currentRankingType === type.value
+                                        ? 'bg-blue-600 text-white'
+                                        : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                                ]"
+                            >
+                                {{ type.label }}
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Time Period Tabs -->
+                    <div class="flex border-b border-gray-200">
+                        <button
+                            v-for="period in timePeriods"
+                            :key="period.value"
+                            @click="setTimePeriod(period.value)"
+                            :class="[
+                                'px-4 py-2 -mb-px text-sm font-medium',
+                                currentTimePeriod === period.value
+                                    ? 'border-b-2 border-blue-500 text-blue-600'
+                                    : 'text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                            ]"
+                        >
+                            {{ period.label }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Rankings List -->
+                <div class="lg:col-span-3">
+                    <div class="bg-white rounded-lg shadow">
+                        <div class="divide-y divide-gray-200">
+                            <div v-for="recipe in rankings" :key="recipe.recipe_id"
+                                 class="p-6 hover:bg-gray-50 transition-colors duration-150">
+                                <div class="flex items-start space-x-6">
+                                    <!-- Rank -->
+                                    <div class="flex-none w-16 text-center">
+                                        <div class="text-2xl font-bold">{{ recipe.rank }}</div>
+                                        <div class="text-sm text-gray-500 mt-1">
+                                            <template v-if="recipe.previous_rank">
+                                                <i :class="[
+                                                    recipe.rank < recipe.previous_rank ? 'fas fa-arrow-up text-green-500' :
+                                                    recipe.rank > recipe.previous_rank ? 'fas fa-arrow-down text-red-500' :
+                                                    'fas fa-minus text-gray-400'
+                                                ]"></i>
+                                                <span class="ml-1">{{ Math.abs(recipe.rank - recipe.previous_rank) }}</span>
+                                            </template>
+                                            <template v-else>
+                                                <span class="text-blue-500">NEW</span>
+                                            </template>
+                                        </div>
+                                    </div>
+
+                                    <!-- Recipe Image -->
+                                    <div class="flex-none">
+                                        <img :src="recipe.photo_url || '/static/default-recipe.jpg'"
+                                             :alt="recipe.title"
+                                             class="w-24 h-24 object-cover rounded-lg">
+                                    </div>
+
+                                    <!-- Recipe Details -->
+                                    <div class="flex-grow">
+                                        <h3 class="text-lg font-semibold">
+                                            <a :href="'/recipes/' + recipe.recipe_id"
+                                               class="text-blue-600 hover:text-blue-800">
+                                                {{ recipe.title }}
+                                            </a>
+                                        </h3>
+
+                                        <!-- Stats Grid -->
+                                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-3">
+                                            <div class="text-sm">
+                                                <div class="text-gray-500">Rating</div>
+                                                <div class="font-medium">
+                                                    {{ recipe.avg_rating.toFixed(1) }}
+                                                    <span class="text-yellow-400">★</span>
+                                                    ({{ recipe.review_count }})
+                                                </div>
+                                            </div>
+                                            <div class="text-sm">
+                                                <div class="text-gray-500">Time</div>
+                                                <div class="font-medium">{{ recipe.total_time }} min</div>
+                                            </div>
+                                            <div class="text-sm">
+                                                <div class="text-gray-500">Cost</div>
+                                                <div class="font-medium">${{ recipe.cost_per_serving.toFixed(2) }}/serving</div>
+                                            </div>
+                                            <div class="text-sm">
+                                                <div class="text-gray-500">Calories</div>
+                                                <div class="font-medium">{{ recipe.calories_per_serving }}/serving</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Tags -->
+                                        <div class="flex flex-wrap gap-2 mt-3">
+                                            <span class="px-2 py-1 text-xs rounded-full"
+                                                  :class="[
+                                                      'bg-' + getDifficultyColor(recipe.difficulty_score) + '-100',
+                                                      'text-' + getDifficultyColor(recipe.difficulty_score) + '-800'
+                                                  ]">
+                                                {{ getDifficultyLabel(recipe.difficulty_score) }}
+                                            </span>
+                                            <span class="px-2 py-1 text-xs bg-purple-100 text-purple-800 rounded-full">
+                                                {{ recipe.cuisine_type }}
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Scores -->
+                                    <div class="flex-none w-32 text-right">
+                                        <div class="text-sm text-gray-500">Value Score</div>
+                                        <div class="font-semibold">{{ recipe.value_score.toFixed(1) }}</div>
+                                        <div class="text-sm text-gray-500 mt-2">Momentum</div>
+                                        <div class="font-semibold" :class="[
+                                            recipe.momentum_score > 0 ? 'text-green-600' :
+                                            recipe.momentum_score < 0 ? 'text-red-600' : 'text-gray-600'
+                                        ]">
+                                            {{ recipe.momentum_score.toFixed(1) }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="lg:col-span-1 space-y-8">
+                    <!-- Category Stats -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h3 class="text-lg font-semibold mb-4">Trending Categories</h3>
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+
+                    <!-- Trending Ingredients -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h3 class="text-lg font-semibold mb-4">Trending Ingredients</h3>
+                        <div class="space-y-3">
+                            <div v-for="ingredient in trendingIngredients"
+                                 :key="ingredient.name"
+                                 class="flex justify-between items-center">
+                                <span>{{ ingredient.name }}</span>
+                                <span class="text-sm text-gray-500">
+                                    +{{ ingredient.growth }}%
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trending Modifications -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h3 class="text-lg font-semibold mb-4">Trending Modifications</h3>
+                        <div class="space-y-3">
+                            <div v-for="mod in trendingModifications"
+                                 :key="mod.type"
+                                 class="flex justify-between items-center">
+                                <span>{{ mod.type }}</span>
+                                <span class="text-sm text-gray-500">
+                                    {{ mod.success_rate }}% success
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const { createApp } = Vue
+
+        createApp({
+            data() {
+                return {
+                    periodStart: '',
+                    periodEnd: '',
+                    rankings: [],
+                    categoryStats: {},
+                    trendingIngredients: [],
+                    trendingModifications: [],
+                    currentRankingType: 'overall',
+                    currentTimePeriod: 'week',
+                    rankingTypes: [
+                        { value: 'overall', label: 'Overall' },
+                        { value: 'value', label: 'Value' },
+                        { value: 'taste', label: 'Taste' }
+                    ],
+                    timePeriods: [
+                        { value: 'today', label: 'Today' },
+                        { value: 'week', label: 'This Week' },
+                        { value: 'month', label: 'This Month' },
+                        { value: 'year', label: 'This Year' },
+                        { value: 'all_time', label: 'All Time' }
+                    ]
+                }
+            },
+            computed: {
+                periodLabel() {
+                    const period = this.timePeriods.find(p => p.value === this.currentTimePeriod)
+                    return period ? period.label : ''
+                }
+            },
+            methods: {
+                async fetchData() {
+                    try {
+                        const response = await fetch(
+                            `/api/v1/trends/hot100?ranking_type=${this.currentRankingType}&time_period=${this.currentTimePeriod}`
+                        )
+                        const data = await response.json()
+
+                        this.periodStart = data.period_start
+                        this.periodEnd = data.period_end
+                        this.rankings = data.rankings
+                        this.categoryStats = data.category_stats
+                        this.trendingIngredients = data.trending_ingredients
+                        this.trendingModifications = data.trending_modifications
+
+                        this.updateCategoryChart()
+                    } catch (error) {
+                        console.error('Error fetching data:', error)
+                    }
+                },
+                async setRankingType(type) {
+                    this.currentRankingType = type
+                    await this.fetchData()
+                },
+                async setTimePeriod(period) {
+                    this.currentTimePeriod = period
+                    await this.fetchData()
+                },
+                getDifficultyColor(score) {
+                    if (score <= 2) return 'green'
+                    if (score <= 3.5) return 'yellow'
+                    return 'red'
+                },
+                getDifficultyLabel(score) {
+                    if (score <= 2) return 'Easy'
+                    if (score <= 3.5) return 'Medium'
+                    return 'Hard'
+                },
+                updateCategoryChart() {
+                    const ctx = document.getElementById('categoryChart')
+                    if (this.categoryChart) {
+                        this.categoryChart.destroy()
+                    }
+
+                    this.categoryChart = new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: Object.keys(this.categoryStats),
+                            datasets: [{
+                                data: Object.values(this.categoryStats),
+                                backgroundColor: [
+                                    '#60A5FA', '#34D399', '#F87171',
+                                    '#FBBF24', '#A78BFA', '#F472B6'
+                                ]
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: {
+                                    position: 'bottom'
+                                }
+                            }
+                        }
+                    })
+                }
+            },
+            mounted() {
+                this.fetchData()
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>

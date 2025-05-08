@@ -1,0 +1,129 @@
+{
+  "title": "Legendary Salted Caramel Brownies",
+  "status": "legendary",
+  "yields": "24 brownies",
+  "description": "This isn't just a brownie - it's a masterpiece of textural contrast and flavor layering. Inspired by Ree Drummond's famous recipe, this enhanced version features a perfectly fudgy brownie base, slow-cooked caramel filling, and a precise tempering process that creates a perfect crackly top. The addition of flaky sea salt and premium chocolate elevates these from excellent to legendary.",
+  "ingredients": {
+    "brownie base": [
+      {
+        "text": "1 box German chocolate cake mix",
+        "amount": "1",
+        "unit": "box",
+        "name": "German chocolate cake mix",
+        "notes": "Duncan Hines preferred for consistent results"
+      },
+      {
+        "text": "1 cup (226g) unsalted butter",
+        "amount": "226",
+        "unit": "gram",
+        "name": "unsalted butter",
+        "notes": "European-style, 82% butterfat, melted and cooled"
+      },
+      {
+        "text": "1/3 cup (80ml) evaporated milk",
+        "amount": "80",
+        "unit": "milliliter",
+        "name": "evaporated milk",
+        "notes": "Not sweetened condensed milk"
+      },
+      {
+        "text": "1 cup (170g) semi-sweet chocolate chips",
+        "amount": "170",
+        "unit": "gram",
+        "name": "semi-sweet chocolate chips",
+        "notes": "Ghirardelli 60% cacao preferred"
+      },
+      {
+        "text": "1 teaspoon espresso powder",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "espresso powder",
+        "notes": "Optional but enhances chocolate flavor"
+      }
+    ],
+    "caramel filling": [
+      {
+        "text": "60 caramel squares",
+        "amount": "60",
+        "unit": null,
+        "name": "caramel squares",
+        "notes": "Werther's Original Soft Caramels preferred"
+      },
+      {
+        "text": "1/2 cup (120ml) evaporated milk",
+        "amount": "120",
+        "unit": "milliliter",
+        "name": "evaporated milk",
+        "notes": "For caramel layer"
+      }
+    ],
+    "finishing": [
+      {
+        "text": "1/2 teaspoon flaky sea salt",
+        "amount": "0.5",
+        "unit": "teaspoon",
+        "name": "flaky sea salt",
+        "notes": "Maldon preferred"
+      },
+      {
+        "text": "2 tablespoons powdered sugar",
+        "amount": "2",
+        "unit": "tablespoon",
+        "name": "powdered sugar",
+        "notes": "For dusting, optional"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "PREPARATION: Position rack in middle of oven and preheat to 350°F (175°C). Line a 9x13 inch pan with parchment paper, leaving overhang on all sides. Spray parchment with nonstick spray."
+    },
+    {
+      "text": "PREPARE BROWNIE BASE: In a large bowl, combine cake mix, melted butter, and 1/3 cup evaporated milk. Mix until well combined but do not overmix. The batter will be very thick."
+    },
+    {
+      "text": "FIRST LAYER: Press half the brownie mixture into prepared pan. This takes patience - use slightly damp hands or offset spatula for even layer. Freeze for 15 minutes to set."
+    },
+    {
+      "text": "PREPARE CARAMEL: While base chills, combine caramels and 1/2 cup evaporated milk in a heavy-bottomed saucepan. Heat over medium-low, stirring constantly, until completely smooth. Remove from heat but keep warm."
+    },
+    {
+      "text": "LAYER ASSEMBLY: Remove pan from freezer. Sprinkle chocolate chips evenly over base. Pour warm caramel mixture over chips. If caramel has thickened, reheat briefly."
+    },
+    {
+      "text": "FINAL LAYER: Drop remaining brownie mixture by spoonfuls over caramel. Don't worry about covering completely - it will spread during baking. Sprinkle with half the sea salt."
+    },
+    {
+      "text": "BAKING: Bake for 22-25 minutes. Key visual cues: edges should be set but center should still be slightly soft. Do not overbake - residual heat will continue cooking."
+    },
+    {
+      "text": "COOLING PHASE 1: Cool in pan on wire rack for exactly 30 minutes. During this time, the caramel will set to the perfect consistency."
+    },
+    {
+      "text": "COOLING PHASE 2: Refrigerate for 2 hours until completely set. This ensures clean cuts and perfect texture."
+    },
+    {
+      "text": "FINISHING: Using parchment overhang, lift brownies from pan. Cut into squares with a hot knife (dip in hot water and wipe clean between cuts). Sprinkle with remaining sea salt and optional powdered sugar just before serving."
+    }
+  ],
+  "notes": [
+    "TEMPERATURE CONTROL: Room temperature ingredients are crucial. Cold ingredients will make the batter too stiff to spread properly.",
+    "CARAMEL TECHNIQUE: If caramel starts to crystallize, add 1 teaspoon hot water and stir until smooth. Never scrape the sides of the pan while melting.",
+    "TEXTURE GUIDE: The perfect brownie should have a crackly top, fudgy center, and distinct layers. If the center seems too soft after cooling, it will set up in the refrigerator.",
+    "STORAGE: These brownies actually improve over 24 hours as the flavors meld. Store in an airtight container, layers separated by parchment, for up to 5 days.",
+    "CUTTING TIPS: For the cleanest cuts, freeze brownies for 15 minutes before cutting. Use a hot knife and wipe clean between each cut.",
+    "VARIATIONS: For a more intense chocolate flavor, replace semi-sweet chips with 70% dark chocolate chunks. For a holiday version, add 1/2 teaspoon peppermint extract to the brownie base.",
+    "SERVING: Best served at cool room temperature. If refrigerated, let stand 20 minutes before serving."
+  ],
+  "source_url": "http://www.foodnetwork.com/recipes/ree-drummond/knock-you-naked-brownies-recipe.html",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 1.0,
+    "temperature_validity": 1.0,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

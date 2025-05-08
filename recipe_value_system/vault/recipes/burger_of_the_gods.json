@@ -1,0 +1,98 @@
+{
+  "title": "Burger of the Gods",
+  "status": "legendary",
+  "yields": "4 divine burgers",
+  "description": "This isn't just a burger - it's a transcendent experience. Inspired by Alton Brown's legendary recipe, this method creates the perfect balance of flavor, texture, and juiciness. The secret lies in the blend of meats, minimal handling, and precise cooking technique. When done right, these burgers are nothing short of a religious experience.",
+  "ingredients": {
+    "meat blend": [
+      {
+        "text": "8 ounces chuck, trimmed and cut into 1.5-inch cubes",
+        "amount": "8",
+        "unit": "ounce",
+        "name": "chuck",
+        "notes": "Choose well-marbled meat, about 80/20 lean-to-fat ratio"
+      },
+      {
+        "text": "8 ounces sirloin, trimmed and cut into 1.5-inch cubes",
+        "amount": "8",
+        "unit": "ounce",
+        "name": "sirloin",
+        "notes": "Look for Choice grade or better"
+      }
+    ],
+    "seasoning": [
+      {
+        "text": "1 teaspoon kosher salt",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "kosher salt",
+        "notes": "Diamond Crystal preferred"
+      },
+      {
+        "text": "1/2 teaspoon freshly ground black pepper",
+        "amount": "1/2",
+        "unit": "teaspoon",
+        "name": "freshly ground black pepper"
+      }
+    ],
+    "for serving": [
+      {
+        "text": "4 soft hamburger buns",
+        "amount": "4",
+        "unit": null,
+        "name": "soft hamburger buns",
+        "notes": "Brioche or potato buns recommended"
+      },
+      {
+        "text": "High-quality butter for toasting buns",
+        "amount": null,
+        "unit": null,
+        "name": "butter"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "MEAT PREPARATION: Chill all grinder parts, including the blade and die, in the freezer for at least 30 minutes. Cut the meat into 1.5-inch cubes, spread on a parchment-lined baking sheet, and freeze for 15 minutes until firm but not frozen solid."
+    },
+    {
+      "text": "GRINDING: Working quickly, grind the meat through the chilled grinder using a medium die. If you don't have a grinder, ask your butcher to do a single, coarse grind of the chuck and sirloin together."
+    },
+    {
+      "text": "FORMING PATTIES: Gently combine the ground meat in a large bowl. Divide into 4 equal portions (8 ounces each) and gently shape into loose balls. Press each ball into a patty about 3/4 inch thick and 4.5 inches in diameter. Using your thumb, make a deep depression in the center of each patty."
+    },
+    {
+      "text": "SEASONING: Just before cooking, season both sides of the patties liberally with kosher salt and freshly ground black pepper. Never mix the seasonings into the meat."
+    },
+    {
+      "text": "COOKING METHOD 1 - CAST IRON: Heat a cast-iron skillet over medium-high heat until very hot. Cook patties for 4 minutes on first side without moving them. Flip once and cook for 3 minutes for medium-rare."
+    },
+    {
+      "text": "COOKING METHOD 2 - GRILL: Build a hot fire on one side of your grill (two-zone fire). Sear burgers over direct heat for 2 minutes per side, then move to indirect heat and cook to desired doneness, about 2-3 minutes more for medium-rare."
+    },
+    {
+      "text": "RESTING: Remove burgers to a clean plate and let rest for 5 minutes. Meanwhile, butter and toast the buns until golden brown."
+    },
+    {
+      "text": "SERVING: Place burgers on toasted buns. Serve immediately, adding only minimal toppings to appreciate the pure, beefy flavor."
+    }
+  ],
+  "notes": [
+    "MEAT TEMPERATURE: Cold meat is crucial. If the meat warms up, the fat will smear during grinding, leading to dense, tough burgers.",
+    "HANDLING: Handle the meat as little as possible. Over-working the meat will make your burgers tough and dense.",
+    "SEASONING TIMING: Only salt the exterior of the patties just before cooking. Mixing salt into the meat will make the texture more sausage-like.",
+    "DONENESS: For food safety, the USDA recommends cooking ground beef to 160°F, but for optimal taste and texture, many chefs prefer medium-rare (130-135°F).",
+    "BUN SELECTION: The bun should be sturdy enough to hold up to the juicy burger but soft enough to compress easily when bitten."
+  ],
+  "source_url": "https://www.foodnetwork.com/recipes/alton-brown/burger-of-the-gods-recipe-1906563",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 0.95,
+    "temperature_validity": 0.95,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "title": "Perfect Homemade Granola",
+  "status": "legendary",
+  "yields": "8 cups (16 servings)",
+  "description": "This isn't just granola - it's a masterclass in texture and flavor balance. Inspired by Cookie and Kate's recipe, this version has been enhanced with precise measurements, temperature control, and clustering techniques. The result is perfectly crispy, clustered granola with a beautiful balance of sweet and salty notes.",
+  "ingredients": {
+    "base": [
+      {
+        "text": "4 cups old-fashioned rolled oats",
+        "amount": "4",
+        "unit": "cup",
+        "name": "old-fashioned rolled oats",
+        "notes": "Use thick-cut, high-quality oats. For gluten-free, ensure certified GF oats"
+      },
+      {
+        "text": "1.5 cups raw nuts",
+        "amount": "1.5",
+        "unit": "cup",
+        "name": "raw nuts",
+        "notes": "Suggested mix: 3/4 cup almonds, 1/2 cup pecans, 1/4 cup walnuts - all roughly chopped"
+      },
+      {
+        "text": "1 cup raw seeds",
+        "amount": "1",
+        "unit": "cup",
+        "name": "raw seeds",
+        "notes": "Suggested mix: 1/2 cup pepitas, 1/2 cup sunflower seeds"
+      },
+      {
+        "text": "1 cup unsweetened coconut flakes",
+        "amount": "1",
+        "unit": "cup",
+        "name": "unsweetened coconut flakes",
+        "notes": "Large flakes preferred over shredded"
+      }
+    ],
+    "seasonings": [
+      {
+        "text": "1.5 teaspoons fine sea salt",
+        "amount": "1.5",
+        "unit": "teaspoon",
+        "name": "fine sea salt",
+        "notes": "Don't reduce - salt is crucial for flavor balance"
+      },
+      {
+        "text": "1 teaspoon ground cinnamon",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "ground cinnamon",
+        "notes": "Ceylon cinnamon preferred for complex flavor"
+      },
+      {
+        "text": "1 teaspoon vanilla extract",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "vanilla extract",
+        "notes": "Pure vanilla extract only"
+      }
+    ],
+    "wet ingredients": [
+      {
+        "text": "1/2 cup extra-virgin olive oil",
+        "amount": "0.5",
+        "unit": "cup",
+        "name": "extra-virgin olive oil",
+        "notes": "High-quality oil is crucial - fruity notes complement the honey"
+      },
+      {
+        "text": "1/2 cup honey",
+        "amount": "0.5",
+        "unit": "cup",
+        "name": "honey",
+        "notes": "Local raw honey preferred, or pure maple syrup for vegan version"
+      }
+    ],
+    "mix-ins after baking": [
+      {
+        "text": "2/3 cup dried fruit",
+        "amount": "0.66",
+        "unit": "cup",
+        "name": "dried fruit",
+        "notes": "Suggested: mix of dried cherries, cranberries, and chopped apricots"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "PREPARATION: Position a rack in the middle of the oven and preheat to 325°F (165°C). Line a large rimmed baking sheet (half-sheet size) with parchment paper."
+    },
+    {
+      "text": "COMBINE DRY INGREDIENTS: In a large mixing bowl, combine the oats, nuts, seeds, coconut flakes, salt, and cinnamon. Stir well to ensure even distribution of salt and spices."
+    },
+    {
+      "text": "MIX WET INGREDIENTS: In a separate bowl or measuring cup, whisk together the olive oil, honey, and vanilla extract until well combined."
+    },
+    {
+      "text": "COMBINE AND CLUSTER: Pour the wet ingredients over the dry ingredients. Using a sturdy spatula, mix thoroughly until every oat and nut is lightly coated. Spend about 1 minute mixing - this is crucial for good clustering."
+    },
+    {
+      "text": "SPREAD AND COMPRESS: Pour the mixture onto your prepared pan. Using your spatula or hands, press the granola down firmly into an even layer. Compression is key for clusters."
+    },
+    {
+      "text": "FIRST BAKE: Bake for 15 minutes, then remove from oven and stir thoroughly, bringing the granola at the edges into the middle. Press down again firmly."
+    },
+    {
+      "text": "SECOND BAKE: Return to oven and bake for another 10-12 minutes, until the granola is golden brown. The granola should still feel slightly soft - it will crisp up as it cools."
+    },
+    {
+      "text": "COOLING AND CLUSTERING: Let the granola cool completely on the pan without stirring - this is crucial for cluster formation. This will take about 45 minutes."
+    },
+    {
+      "text": "FINISHING: Once completely cool, break the granola into your desired cluster size and stir in the dried fruit. Store in an airtight container."
+    }
+  ],
+  "notes": [
+    "TEMPERATURE CONTROL: 325°F is ideal - hot enough to create golden color and crispiness, but not so hot that the nuts burn.",
+    "CLUSTER FORMATION: Three factors create perfect clusters: thorough mixing of wet and dry ingredients, compression before baking, and letting it cool completely without stirring.",
+    "CUSTOMIZATION: This base recipe welcomes variations. Try different nut combinations, add spices like cardamom or ginger, or experiment with different dried fruits.",
+    "STORAGE: Keeps for 2-3 weeks in an airtight container at room temperature. For maximum freshness, store nuts and dried fruit separately and combine as needed.",
+    "SERVING: Perfect as is with milk or yogurt, or use as a topping for smoothie bowls, ice cream, or baked fruit."
+  ],
+  "source_url": "https://cookieandkate.com/healthy-granola-recipe/",
+  "quality_metrics": {
+    "overall_quality": 0.98,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 1.0,
+    "timing_validity": 1.0,
+    "temperature_validity": 1.0,
+    "portion_consistency": 1.0,
+    "needs_improvement": false
+  }
+}

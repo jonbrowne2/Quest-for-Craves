@@ -1,0 +1,119 @@
+{
+  "title": "Caramelized French Toast",
+  "status": "legendary",
+  "yields": "8-10 slices",
+  "description": "This isn't your ordinary French toast - it's a game-changing recipe that solves all the common French toast problems: no more soggy centers, no scrambled egg edges, and a perfectly caramelized exterior that adds an incredible crunch. The secret lies in using only egg yolks, cooking low and slow, and a final caramelization step that takes this breakfast favorite to new heights.",
+  "ingredients": {
+    "base": [
+      {
+        "text": "1 loaf challah or brioche bread (or 8-10 thick sliced white bread)",
+        "amount": "1",
+        "unit": "loaf",
+        "name": "challah or brioche bread"
+      },
+      {
+        "text": "3 egg yolks (no whites!)",
+        "amount": "3",
+        "unit": null,
+        "name": "egg yolks"
+      },
+      {
+        "text": "1 1/2 cups heavy cream (or half & half if you must)",
+        "amount": "1 1/2",
+        "unit": "cup",
+        "name": "heavy cream"
+      },
+      {
+        "text": "1/4 cup granulated sugar",
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "granulated sugar"
+      },
+      {
+        "text": "1 tablespoon vanilla extract",
+        "amount": "1",
+        "unit": "tablespoon",
+        "name": "vanilla extract"
+      },
+      {
+        "text": "1/4 teaspoon kosher salt",
+        "amount": "1/4",
+        "unit": "teaspoon",
+        "name": "kosher salt"
+      },
+      {
+        "text": "1 teaspoon cinnamon",
+        "amount": "1",
+        "unit": "teaspoon",
+        "name": "cinnamon"
+      },
+      {
+        "text": "pinch of nutmeg (optional)",
+        "amount": "1",
+        "unit": "pinch",
+        "name": "nutmeg"
+      }
+    ],
+    "for cooking": [
+      {
+        "text": "Extra granulated sugar for caramelizing",
+        "amount": null,
+        "unit": null,
+        "name": "granulated sugar"
+      },
+      {
+        "text": "Butter for frying",
+        "amount": null,
+        "unit": null,
+        "name": "butter"
+      },
+      {
+        "text": "Vegetable oil for frying",
+        "amount": null,
+        "unit": null,
+        "name": "vegetable oil"
+      }
+    ]
+  },
+  "instructions": [
+    {
+      "text": "If using a whole loaf, slice the bread into thick slices (about 1-inch thick). Let the bread sit out for a few hours or overnight to get slightly stale - this helps it absorb the custard better."
+    },
+    {
+      "text": "In a large shallow bowl, whisk together the egg yolks, heavy cream, sugar, vanilla, salt, cinnamon, and nutmeg until well combined."
+    },
+    {
+      "text": "Soak each slice of bread in the egg mixture for 5-7 minutes per side. This longer soak time allows the bread to fully absorb the custard."
+    },
+    {
+      "text": "Heat a large skillet or griddle over medium-low heat. Add equal parts butter and oil (this prevents burning while maintaining flavor)."
+    },
+    {
+      "text": "Cook the soaked bread for about 3-4 minutes per side, or until golden brown. The key is cooking on medium-low - it takes longer but ensures a fully cooked, fluffy center."
+    },
+    {
+      "text": "For the caramelization: Sprinkle additional granulated sugar on each side of the cooked French toast. Return to the pan and cook until the sugar melts and caramelizes, about 1 minute per side. Add a small pat of butter under each slice to help the sugar caramelize evenly."
+    },
+    {
+      "text": "Serve immediately while the caramelized sugar is still crispy. Optional toppings: maple syrup, powdered sugar, fresh berries, or caramelized bananas."
+    }
+  ],
+  "notes": [
+    "BREAD CHOICE IS CRUCIAL: Brioche or challah are ideal, but any thick-cut bread will work. The bread should be slightly stale.",
+    "EGG YOLKS ONLY: Using only yolks (no whites) prevents the scrambled egg edges that often plague French toast.",
+    "LONG SOAK TIME: Don't rush the soaking process - 5-7 minutes per side allows the bread to fully absorb the custard.",
+    "LOW AND SLOW: Cooking on medium-low takes longer but ensures perfectly cooked centers.",
+    "MAKE AHEAD: You can prepare and cook the French toast ahead of time. When reheating, sprinkle with fresh sugar and re-caramelize for the best texture."
+  ],
+  "source_url": "https://thefoodcharlatan.com/french-toast-recipe/",
+  "quality_metrics": {
+    "overall_quality": 0.95,
+    "completeness_score": 1.0,
+    "instruction_clarity": 0.95,
+    "ingredient_validity": 0.95,
+    "timing_validity": 0.9,
+    "temperature_validity": 0.9,
+    "portion_consistency": 0.9,
+    "needs_improvement": false
+  }
+}
